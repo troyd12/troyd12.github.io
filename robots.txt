@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://troyd12.github.io/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /Troy_Dixon_Resume.docx
