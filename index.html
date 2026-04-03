@@ -3,60 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self';">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
-<title>Troy Dixon | TD Movement — Lead Recruiter</title>
-<meta name="description" content="Troy Dixon — Lead Technical Recruiter. Relentless Advancement. Relentless Breakthroughs. Relentless Movement. AI-powered recruiting workflows and talent strategy.">
-<meta name="keywords" content="Troy Dixon, technical recruiter, AI recruiting, Claude AI automation, recruiting automation, talent strategy, prompt engineering, MCP servers">
-<meta name="author" content="Troy Dixon">
-<meta property="og:title" content="Troy Dixon | TD Movement — Lead Recruiter">
-<meta property="og:description" content="Relentless Advancement. Relentless Breakthroughs. Relentless Movement. Lead Recruiter building the bridge between elite human talent and machine intelligence.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://troyd12.github.io">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Troy Dixon | TD Movement">
-<meta name="twitter:description" content="Relentless Advancement. Relentless Breakthroughs. Relentless Movement. Lead Recruiter + AI.">
-<meta name="twitter:site" content="@tdmovement">
-<meta name="twitter:creator" content="@tdmovement">
-<link rel="canonical" href="https://troyd12.github.io">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="theme-color" content="#FF6B2B">
-<link rel="sitemap" type="application/xml" href="/sitemap.xml">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
-<!-- JSON-LD Structured Data — Person Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Troy Dixon",
-  "url": "https://troyd12.github.io",
-  "sameAs": [
-    "https://www.linkedin.com/in/trdixon/",
-    "https://github.com/troyd12",
-    "https://instagram.com/tdmovement",
-    "https://tiktok.com/@tdmovement"
-  ],
-  "jobTitle": "Lead Technical Recruiter",
-  "description": "Lead Technical Recruiter specializing in AI-powered recruiting workflows, intelligent hiring pipelines, and talent strategy.",
-  "email": "troyd12@gmail.com",
-  "knowsAbout": ["Technical Recruiting","AI Automation","Claude AI","Prompt Engineering","MCP Servers","Talent Strategy","Workflow Automation"],
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://troyd12.github.io"
-  }
-}
-</script>
+<title>Troy Dixon | The TD Movement — Lead Recruiter</title>
+<meta name="description" content="Troy Dixon — Lead Technical Recruiter at Nike. AI-powered talent acquisition. People. Process. Technology.">
+<meta property="og:title" content="The TD Movement | Troy Dixon">
+<meta property="og:description" content="Lead Recruiter building bridges between elite talent and machine intelligence.">
+<meta name="theme-color" content="#C8F900">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg:          #0A0A0A;
   --bg-card:     #111111;
-  --orange:      #FF6B2B;
-  --orange-dim:  rgba(255,107,43,0.08);
-  --orange-glow: rgba(255,107,43,0.12);
+  --orange:      #C8F900;
+  --orange-dim:  rgba(200,249,0,0.08);
+  --orange-glow: rgba(200,249,0,0.12);
   --white:       #F5F5F5;
   --gray:        #999;
   --dim:         #555;
@@ -71,8 +32,8 @@
   --dim:         #999;
   --border:      rgba(0,0,0,0.06);
   --nav-bg:      rgba(250,250,248,0.92);
-  --orange-dim:  rgba(255,107,43,0.05);
-  --orange-glow: rgba(255,107,43,0.08);
+  --orange-dim:  rgba(200,249,0,0.05);
+  --orange-glow: rgba(200,249,0,0.08);
 }
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -98,10 +59,15 @@ nav{
 }
 .nav-left{display:flex;align-items:center;gap:1.2rem}
 .nav-logo{
-  font-family:'Bebas Neue',ans-serif;
-  font-size:1.6rem;letter-spacing:3px;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.5rem;letter-spacing:3px;
   color:var(--orange);text-decoration:none;
+  border:2px solid var(--orange);
+  padding:.15rem .6rem;
+  line-height:1;
+  transition:all .25s;
 }
+.nav-logo:hover{background:var(--orange);color:#000;}
 .nav-tag{font-size:.65rem;letter-spacing:3px;color:var(--dim);text-transform:uppercase;border-left:1.5px solid var(--orange);padding-left:.8rem}
 .nav-right{display:flex;align-items:center;gap:2rem}
 .nav-links{display:flex;gap:1.8rem;list-style:none}
@@ -111,25 +77,13 @@ nav{
 }
 .nav-links a:hover{color:var(--orange)}
 
-.mobile-menu-btn{
-  display:none;width:32px;height:32px;flex-direction:column;
-  justify-content:center;align-items:center;background:none;border:none;
-  cursor:pointer;gap:5px;padding:0;
-}
-.mobile-menu-btn span{
-  width:24px;height:2px;background:var(--gray);transition:all .3s;
-}
-.mobile-menu-btn.active span:nth-child(1){transform:rotate(45deg) translate(10px, 10px)}
-.mobile-menu-btn.active span:nth-child(2){opacity:0}
-.mobile-menu-btn.active span:nth-child(3){transform:rotate(-45deg) translate(7px, -7px)}
-
 /* ── TOGGLE ── */
 .toggle{
   width:44px;height:22px;border-radius:11px;cursor:pointer;
   background:var(--dim);position:relative;transition:background .3s;
   border:none;
 }
-#toggle::after{
+.toggle::after{
   content:'';position:absolute;top:2px;left:2px;
   width:18px;height:18px;border-radius:50%;
   background:var(--orange);transition:transform .3s;
@@ -138,8 +92,19 @@ nav{
 
 /* ── HERO ── */
 .hero{
-  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
-  padding:0 6vw;position:relative;overflow:hidden;
+  min-height:100vh;display:flex;flex-direction:row;align-items:center;justify-content:center;
+  padding:0 5vw;gap:0;position:relative;overflow:hidden;
+}
+/* Text column */
+.hero-content{
+  flex:0 0 auto;min-width:0;max-width:520px;
+  display:flex;flex-direction:column;justify-content:center;
+  position:relative;z-index:3;
+  margin-left:-4vw;
+}
+/* Text elements sit above canvas/grid */
+.hero-eyebrow,.pillars,h1,.hero-tagline,.hero-sub,.hero-cta,.socials,.hero-scroll-hint{
+  position:relative;z-index:3;
 }
 
 /* Animated grid background */
@@ -156,18 +121,55 @@ nav{
 
 /* Hero floating illustration */
 .hero-visual{
-  position:absolute;right:4vwtop:50%;transform:translateY(-50%);
-  width:clamp(280px,30vw,480px);height:clamp(280px,30vw,480px);
-  pointer-events:none;opacity:.85;
+  flex:0 0 auto;
+  height:101vh;
+  align-self:center;
+  pointer-events:none;
+  opacity:0;
+  transition:none;
+  will-change:opacity,transform;
+  transform:translateX(calc(-2vw - 60px)) scale(0.93);
+  position:relative;
+  overflow:visible;
+  margin-left:0;
+  margin-right:-3vw;
+}
+/* JS adds .img-live class to start the reveal */
+.hero-visual.img-live{
+  opacity:.97;
+  transform:translateX(-2vw) scale(1);
+  transition:
+    opacity   3.0s cubic-bezier(.16,1,.3,1),
+    transform 3.5s cubic-bezier(.16,1,.3,1);
+}
+.hero-visual img{
+  width:auto;height:100%;display:block;
+}
+/* Right-side fade is baked into puzzle_head.png — no CSS overlay needed */
+/* Image reveal — clean, no glow */
+.hero-visual.img-live img{
 }
 .hero-visual svg{width:100%;height:100%}
 
 /* Orbiting rings animation */
 @keyframes orbit{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 @keyframes orbitR{0%{transform:rotate(0deg)}100%{transform:rotate(-360deg)}}
-@keyframes pulse{0%,100%{opacity:.3;transform:scale(1)}50%{opacity:.8;transform:scale(1.4)}}
+@keyframes pulse{0%,100%{opacity:.3;r:3}50%{opacity:.8;r:5}}
+/* imageArrive keyframes removed — clean image display */
+/* Glow halo removed — clean image display */
+/* Particle canvas — child of hero-visual, overflows it slightly */
+#heroParticles{
+  position:absolute;
+  inset:-15% -8%;
+  width:116%;height:130%;
+  pointer-events:none;
+  z-index:6;
+  opacity:0;
+  transition:opacity 2s ease 1s;
+}
+#heroParticles.p-live{opacity:1;}
 @keyframes nodeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
- .pillars{
+.pillars{
   display:flex;gap:.6rem;margin-bottom:2rem;
 }
 .pill{
@@ -186,29 +188,13 @@ h1{
 }
 h1 .thin{font-weight:400;color:var(--gray);-webkit-text-stroke:1.5px var(--gray)}
 h1 .orange{color:var(--orange)}
-h1 .hand{
-  font-family:'Dancing Script',cursive;
-  font-weight:400;
-  font-style:normal;
-  font-size:1.22em;
-  letter-spacing:2px;
-  color:var(--white);
-  opacity:.9;
-  text-shadow:0 2px 24px rgba(255,255,255,.12);
-  text-transform:none;
-}
-h1 .movement{
-  display:block;
-  font-family:'Space Grotesk',sans-serif;
-  font-weight:300;
-  font-size:.38em;
-  letter-spacing:8px;
-  color:var(--orange);
-  opacity:.82;
-  margin-top:.15em;
-  text-shadow:0 2px 18px rgba(255,107,43,.15);
-  font-style:normal;
-  text-transform:uppercase;
+h1 .hand{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1em;letter-spacing:3px}
+
+.hero-tagline{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(1.6rem,3vw,2.4rem);
+  letter-spacing:3px;line-height:1.15;
+  color:var(--orange);margin-bottom:1.8rem;
 }
 
 .hero-sub{
@@ -231,11 +217,16 @@ h1 .movement{
 /* ── SOCIAL ── */
 .socials{display:flex;gap:.8rem}
 .soc{
-  width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
   border:1px solid var(--border);color:var(--gray);text-decoration:none;
-  transition:all .3s;
+  transition:all .35s cubic-bezier(.16,1,.3,1);
 }
-.soc:hover{border-color:var(--orange);color:var(--orange);background:var(--orange-dim)}
+.soc:hover{
+  border-color:var(--orange);color:var(--orange);
+  background:var(--orange-dim);transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(200,249,0,.15);
+}
 .soc svg{width:16px;height:16px;fill:currentColor}
 
 /* ── SECTIONS ── */
@@ -274,9 +265,6 @@ section{padding:6rem 6vw;position:relative;transition:background .4s}
   position:relative;
 }
 .pcard-icon svg{width:100%;height:100%;stroke:var(--orange);fill:none;stroke-width:1}
-.pcard-icon path,
-.pcard-icon circle,
-.pcard-icon rect{stroke:var(--orange)}
 .pcard-icon .glow{
   position:absolute;width:80px;height:80px;border-radius:50%;
   background:var(--orange);filter:blur(50px);opacity:.06;
@@ -296,10 +284,10 @@ section{padding:6rem 6vw;position:relative;transition:background .4s}
 .snum{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:var(--orange);line-height:1}
 #hireCounter{
   font-variant-numeric:tabular-nums;
-  text-shadow:0 0 12px rgba(255,107,43,.35);
+  text-shadow:0 0 12px rgba(200,249,0,.35);
   animation:counterPulse 2s ease-in-out infinite;
 }
-@keyframes counterPulse{0%,100%{text-shadow:0 0 12px rgba(255,107,43,.3)}50%{text-shadow:0 0 24px rgba(255,107,43,.6),0 0 48px rgba(255,107,43,.15)}}
+@keyframes counterPulse{0%,100%{text-shadow:0 0 12px rgba(200,249,0,.3)}50%{text-shadow:0 0 24px rgba(200,249,0,.6),0 0 48px rgba(200,249,0,.15)}}
 .slbl{font-size:.7rem;color:var(--dim);letter-spacing:1.5px;text-transform:uppercase;margin-top:.3rem}
 
 /* ── PROJECTS ── */
@@ -328,6 +316,7 @@ section{padding:6rem 6vw;position:relative;transition:background .4s}
   color:var(--dim);letter-spacing:1px;text-transform:uppercase;transition:all .25s;
 }
 .proj:hover .tag{border-color:var(--orange);color:var(--orange)}
+
 
 /* ── SKILLS ── */
 .cloud{display:flex;flex-wrap:wrap;gap:.6rem;max-width:800px}
@@ -410,7 +399,7 @@ footer b{color:var(--orange);font-weight:600}
   background:var(--orange-dim);border:1px solid var(--border);
   color:var(--white);font-size:1.2rem;cursor:pointer;
   display:flex;align-items:center;justify-content:center;
-  transition:all .25s;z-index:2;type:button;
+  transition:all .25s;z-index:2;
 }
 .modal-close:hover{background:var(--orange);color:#000;border-color:var(--orange)}
 .modal-hero{
@@ -441,333 +430,686 @@ footer b{color:var(--orange);font-weight:600}
 }
 .modal-btn:hover{background:#fff;box-shadow:0 0 20px var(--orange-glow)}
 
-/* ── PUZZLE BRAIN INTRO ── */
+/* ── TD MOVEMENT TEXT INTRO ── */
 #puzzleIntro{
   position:fixed;top:0;left:0;right:0;bottom:0;z-index:999;
   display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
 }
 #puzzleIntro .intro-bg{
   position:absolute;top:0;left:0;right:0;bottom:0;
   background:#0A0A0A;
-  transition:opacity 2s cubic-bezier(.4,0,.2,1);
+  transition:opacity 2.2s cubic-bezier(.4,0,.2,1);
 }
 #puzzleIntro.dissolving .intro-bg{opacity:0}
 #puzzleIntro.gone{display:none}
-#puzzleCanvas{width:100%;height:100%;position:relative;z-index:1}
+/* Volt green radial glow behind TD MOVEMENT text */
+.intro-glow{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:clamp(400px,70vw,900px);height:clamp(200px,50vh,500px);
+  border-radius:50%;
+  background:radial-gradient(ellipse at center,
+    rgba(200,249,0,0.18) 0%,
+    rgba(200,249,0,0.08) 35%,
+    rgba(200,249,0,0.02) 65%,
+    transparent 100%
+  );
+  pointer-events:none;
+  z-index:1;
+  opacity:0;
+  transition:opacity 2.2s cubic-bezier(.16,1,.3,1) 0.6s;
+}
+.intro-glow.show{opacity:1;}
+/* Text container — centered */
+.intro-text-wrap{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  z-index:3;display:flex;flex-direction:column;align-items:center;
+  gap:.3rem;pointer-events:none;
+}
+.intro-word{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(2.8rem,7vw,6.5rem);
+  font-weight:900;letter-spacing:10px;
+  color:#C8F900;line-height:.92;
+  display:block;overflow:visible;
+}
+/* Individual letter — volt glow only, no outline */
+.intro-letter{
+  display:inline-block;
+  color:#C8F900;
+  text-shadow:
+    0 0 25px rgba(200,249,0,.75),
+    0 0 60px rgba(200,249,0,.40),
+    0 0 120px rgba(200,249,0,.20);
+  will-change:transform,opacity;
+}
+.intro-text-wrap.fadeout{opacity:0;transition:opacity 1.2s ease;}
+/* Tagline below words */
 .puzzle-tagline{
-  position:absolute;bottom:18%;left:50%;transform:translateX(-50%);z-index:2;
-  font-family:'Bebas Neue',sans-serif;font-size:clamp(1rem,2.5vw,1.6rem);
-  letter-spacing:6px;color:var(--orange);opacity:0;
-  transition:opacity .8s ease;text-align:center;white-space:nowrap;
+  position:absolute;bottom:14%;left:50%;transform:translateX(-50%);z-index:4;
+  font-family:'Bebas Neue',sans-serif;font-size:clamp(.9rem,2vw,1.4rem);
+  letter-spacing:8px;color:#C8F900;opacity:0;
+  transition:opacity 1s ease;text-align:center;white-space:nowrap;
+  text-shadow:0 0 20px rgba(200,249,0,.5);
 }
 .puzzle-tagline.show{opacity:1}
 .puzzle-tagline.fadeout{opacity:0;transition:opacity 1s ease}
 
-/* Site entrance animation */
-nav{opacity:0;transform:translateY(-20px);transition:opacity .8s ease .2s,transform .8s cubic-bezier(.16,1,.3,1) .2s,background .4s}
-nav.show{opacity:1;transform:translateY(0)}
-.hero{opacity:0;transition:opacity .8s ease .4s}
-.hero.show{opacity:1}
+/* ════════════════════════════════════════════════════
+   SITE ENTRANCE — STAGGER SEQUENCE
+   Text content appears first → Nike head is last reveal
+   All delays are relative to .entered firing at ~8200ms
+   ════════════════════════════════════════════════════ */
 
-/* ── CHATBOT WIDGET ── */
-.chat-widget-button{
-  position:fixed;bottom:100px;right:20px;
-  width:56px;height:56px;border-radius:50%;
-  background:var(--orange);border:none;cursor:pointer;
-  display:flex;align-items:center;justify-content:center;
-  color:#000;font-size:24px;
-  box-shadow:0 4px 12px rgba(255,107,43,.3);
-  transition:all .3s;
-  z-index:490;
+/* 1. NAV — slides down 0.15s in */
+nav{
+  opacity:0;transform:translateY(-24px);
+  transition:
+    opacity   .7s cubic-bezier(.16,1,.3,1) .15s,
+    transform .7s cubic-bezier(.16,1,.3,1) .15s,
+    background .4s;
 }
-/* ── CHATBOT ── */
-.chat-widget-button:hover{
-  transform:scale(1.1);
-  box-shadow:0 6px 24px rgba(255,107,43,.45);
-}
-.chat-widget-button.active{
-  background:#222;
-  transform:rotate(45deg) scale(1.05);
-}
+nav.entered{opacity:1;transform:translateY(0)}
 
-.chat-widget-panel{
-  position:fixed;bottom:90px;right:20px;
-  width:360px;height:520px;
-  background:var(--bg-card);
-  border:1px solid var(--orange);
-  box-shadow:0 24px 80px rgba(0,0,0,.5),0 0 40px var(--orange-glow);
-  display:flex;flex-direction:column;
-  opacity:0;visibility:hidden;pointer-events:none;
-  transform:translateY(16px) scale(.96);
-  transition:all .3s cubic-bezier(.16,1,.3,1);
-  z-index:489;overflow:hidden;
-}
-.chat-widget-panel.active{
-  opacity:1;visibility:visible;pointer-events:auto;
-  transform:translateY(0) scale(1);
-}
+/* 2. HERO wrapper fades in 0.3s */
+.hero{opacity:0;transition:opacity 1s ease .3s}
+.hero.entered{opacity:1}
 
-/* Header */
-.chat-header{
-  padding:1rem 1.2rem;
-  background:linear-gradient(135deg,rgba(255,107,43,.12),transparent);
-  border-bottom:1px solid var(--border);
-  display:flex;justify-content:space-between;align-items:center;
-  flex-shrink:0;
+/* 3. EYEBROW label — 0.45s */
+.hero .hero-eyebrow{
+  opacity:0;transform:translateY(14px);
+  transition:
+    opacity   .7s cubic-bezier(.16,1,.3,1) .45s,
+    transform .7s cubic-bezier(.16,1,.3,1) .45s;
 }
-.chat-header-left{display:flex;align-items:center;gap:.7rem}
-.chat-avatar{
-  width:32px;height:32px;background:var(--orange);
-  display:flex;align-items:center;justify-content:center;
-  font-family:'Bebas Neue',sans-serif;font-size:.9rem;color:#000;
-  letter-spacing:1px;flex-shrink:0;
-}
-.chat-header-info{}
-.chat-header-name{
-  font-size:.82rem;font-weight:700;color:var(--white);
-  letter-spacing:.5px;line-height:1.2;
-}
-.chat-header-status{
-  font-size:.62rem;color:var(--orange);letter-spacing:1px;
-  display:flex;align-items:center;gap:.3rem;
-}
-.chat-status-dot{
-  width:6px;height:6px;border-radius:50%;
-  background:var(--orange);
-  animation:counterPulse 2s ease-in-out infinite;
-}
-.chat-close-btn{
-  background:none;border:none;color:var(--dim);cursor:pointer;
-  font-size:1.1rem;line-height:1;padding:.2rem;
-  transition:color .2s;
-}
-.chat-close-btn:hover{color:var(--white)}
+.hero.entered .hero-eyebrow{opacity:1;transform:translateY(0)}
 
-/* Messages area */
-.chat-messages{
-  flex:1;overflow-y:auto;padding:1rem;
-  display:flex;flex-direction:column;gap:.75rem;
-  scroll-behavior:smooth;
+/* 4. PILLS row — 0.6s */
+.hero .pillars{
+  opacity:0;transform:translateY(10px);
+  transition:
+    opacity   .6s cubic-bezier(.16,1,.3,1) .6s,
+    transform .6s cubic-bezier(.16,1,.3,1) .6s;
 }
-.chat-messages::-webkit-scrollbar{width:3px}
-.chat-messages::-webkit-scrollbar-track{background:transparent}
-.chat-messages::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.hero.entered .pillars{opacity:1;transform:translateY(0)}
 
-.chat-msg{display:flex;flex-direction:column;gap:.25rem}
-.chat-msg.bot{align-items:flex-start}
-.chat-msg.user{align-items:flex-end}
+/* 5. H1 — 0.78s, bigger lift */
+.hero h1{
+  opacity:0;transform:translateY(32px);
+  transition:
+    opacity   .9s cubic-bezier(.16,1,.3,1) .78s,
+    transform .9s cubic-bezier(.16,1,.3,1) .78s;
+}
+.hero.entered h1{opacity:1;transform:translateY(0)}
 
-.chat-bubble{
-  max-width:82%;padding:.65rem .9rem;
-  font-size:.8rem;line-height:1.55;border-radius:0;
+/* 6. TAGLINE — 1.0s */
+.hero .hero-tagline{
+  opacity:0;transform:translateY(20px);
+  transition:
+    opacity   .8s cubic-bezier(.16,1,.3,1) 1.0s,
+    transform .8s cubic-bezier(.16,1,.3,1) 1.0s;
 }
-.chat-msg.bot .chat-bubble{
-  background:var(--orange-dim);
-  border:1px solid var(--border);
-  border-left:3px solid var(--orange);
-  color:var(--gray);
-}
-.chat-msg.user .chat-bubble{
-  background:var(--orange);
-  color:#000;font-weight:600;
-}
-.chat-msg-time{
-  font-size:.58rem;color:var(--dim);letter-spacing:.5px;
-  padding:0 .2rem;
-}
+.hero.entered .hero-tagline{opacity:1;transform:translateY(0)}
 
-/* Typing indicator */
-.typing-indicator{
-  display:none;align-items:center;gap:.3rem;
-  padding:.7rem .9rem;background:var(--orange-dim);
-  border:1px solid var(--border);border-left:3px solid var(--orange);
-  width:fit-content;
-}
-.typing-indicator.show{display:flex}
-.typing-dot{
-  width:5px;height:5px;border-radius:50%;background:var(--orange);
-  animation:typingBounce .9s ease infinite;
-}
-.typing-dot:nth-child(2){animation-delay:.15s}
-.typing-dot:nth-child(3){animation-delay:.3s}
-@keyframes typingBounce{
-  0%,60%,100%{transform:translateY(0);opacity:.4}
-  30%{transform:translateY(-5px);opacity:1}
-}
-
-/* Quick replies */
-.chat-quick-replies{
-  padding:.75rem;display:flex;flex-wrap:wrap;gap:.4rem;
-  border-top:1px solid var(--border);flex-shrink:0;
-}
-.quick-reply-btn{
-  padding:.45rem .85rem;font-size:.68rem;font-family:inherit;
-  background:transparent;border:1px solid var(--border);
-  color:var(--gray);cursor:pointer;transition:all .2s;
-  font-weight:500;letter-spacing:.5px;white-space:nowrap;
-}
-.quick-reply-btn:hover{
-  border-color:var(--orange);color:var(--orange);
-  background:var(--orange-dim);
-}
-
-/* Input area */
-.chat-input-area{
-  padding:.75rem;border-top:1px solid var(--border);
-  display:flex;gap:.5rem;flex-shrink:0;
-}
-.chat-input-area input{
-  flex:1;padding:.6rem .85rem;background:transparent;
-  border:1px solid var(--border);color:var(--white);
-  font-size:.78rem;font-family:inherit;
-  transition:border-color .2s;
-}
-.chat-input-area input::placeholder{color:var(--dim)}
-.chat-input-area input:focus{
-  outline:none;border-color:var(--orange);
-}
-.chat-input-area button{
-  padding:.6rem 1rem;background:var(--orange);border:none;
-  color:#000;cursor:pointer;font-weight:600;border-radius:6px;
-  transition:all .3s;
-}
-.chat-input-area button:hover{background:#fff}
-
-/* ── COOKIE CONSENT BANNER (GDPR/CCPA COMPLIANT) ── */
-.cookie-banner{
-  position:fixed;bottom:0;left:0;right:0;
-  background:var(--bg-card);border-top:2px solid var(--orange);
-  padding:1.8rem 2.5rem;
-  opacity:0;visibility:hidden;transform:translateY(100%);
-  transition:all .4s cubic-bezier(.16,1,.3,1);
-  z-index:500;
-  backdrop-filter:blur(16px);
-  box-shadow:0 -8px 40px rgba(0,0,0,.3);
-}
-.cookie-banner.show{opacity:1;visibility:visible;transform:translateY(0)}
-.cookie-inner{
-  max-width:1100px;margin:0 auto;
-  display:flex;align-items:flex-start;gap:2.5rem;flex-wrap:wrap;
-}
-.cookie-icon{
-  flex-shrink:0;width:40px;height:40px;
-  display:flex;align-items:center;justify-content:center;
-  background:var(--orange-dim);border:1px solid var(--orange);
-  color:var(--orange);font-size:1.2rem;margin-top:.2rem;
-}
-.cookie-content{flex:1;min-width:280px}
-.cookie-title{
-  font-family:'Bebas Neue',sans-serif;font-size:1.1rem;
-  letter-spacing:2px;color:var(--white);margin-bottom:.4rem;
-}
-.cookie-text{color:var(--gray);font-size:.83rem;line-height:1.6;margin-bottom:.8rem}
-.cookie-cats{
-  display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:.6rem;
-}
-.cookie-cat{
-  font-size:.65rem;font-weight:600;letter-spacing:1.5px;
-  text-transform:uppercase;padding:.3rem .7rem;
-  border:1px solid var(--border);color:var(--dim);
-}
-.cookie-cat.required{border-color:var(--orange);color:var(--orange)}
-.cookie-legal{
-  font-size:.72rem;color:var(--dim);line-height:1.5;
-}
-.cookie-legal a{color:var(--orange);text-decoration:underline}
-.cookie-actions{
-  display:flex;gap:.8rem;flex-direction:column;justify-content:center;
-  flex-shrink:0;min-width:180px;
-}
-.cookie-accept{
-  padding:.8rem 1.6rem;background:var(--orange);color:#000;
-  border:none;cursor:pointer;font-family:inherit;font-weight:700;
-  font-size:.72rem;letter-spacing:2px;text-transform:uppercase;
-  transition:all .3s;white-space:nowrap;
-}
-.cookie-accept:hover{background:#fff;box-shadow:0 0 20px var(--orange-glow)}
-.cookie-decline{
-  padding:.8rem 1.6rem;background:transparent;color:var(--gray);
-  border:1px solid var(--border);cursor:pointer;font-family:inherit;
-  font-weight:600;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;
-  transition:all .3s;white-space:nowrap;
-}
-.cookie-decline:hover{border-color:var(--orange);color:var(--orange)}
-.cookie-manage{
-  font-size:.65rem;color:var(--dim);text-align:center;
-  text-decoration:underline;cursor:pointer;letter-spacing:1px;
-  background:none;border:none;font-family:inherit;
-}
-.cookie-manage:hover{color:var(--orange)}
-
-/* ── PARTICLE CANVAS ── */
-#particle-canvas{
-  position:absolute;top:0;left:0;width:100%;height:100%;
-  pointer-events:none;z-index:0;opacity:.75;
-}
-.hero>*:not(#particle-canvas){position:relative;z-index:1}
-
-/* ── SCROLL PROGRESS LINE ── */
-#scroll-line{
-  position:fixed;left:0;top:0;width:3px;height:0%;
-  background:linear-gradient(180deg,var(--orange),rgba(255,107,43,.25));
-  z-index:999;box-shadow:0 0 8px rgba(255,107,43,.5);
-  pointer-events:none;transition:height .08s linear;
-}
-
-/* ── SCROLL REVEAL ── */
-.reveal-word{
-  display:inline-block;
+/* 7. BODY TEXT — 1.2s */
+.hero .hero-sub{
   opacity:0;transform:translateY(18px);
-  transition:opacity .55s ease,transform .55s ease;
+  transition:
+    opacity   .8s cubic-bezier(.16,1,.3,1) 1.2s,
+    transform .8s cubic-bezier(.16,1,.3,1) 1.2s;
 }
-.reveal-word.vis{opacity:1;transform:none}
+.hero.entered .hero-sub{opacity:1;transform:translateY(0)}
 
-/* ── 3D CARD TILT ── */
-.proj{
-  transform-style:preserve-3d;
-  will-change:transform;
+/* 8. CTA BUTTONS — 1.4s */
+.hero .hero-cta{
+  opacity:0;transform:translateY(14px);
+  transition:
+    opacity   .8s cubic-bezier(.16,1,.3,1) 1.4s,
+    transform .8s cubic-bezier(.16,1,.3,1) 1.4s;
 }
-.proj::after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(135deg,rgba(255,107,43,.04) 0%,transparent 60%);
-  opacity:0;transition:opacity .3s;border-radius:inherit;pointer-events:none;
-}
-.proj:hover::after{opacity:1}
+.hero.entered .hero-cta{opacity:1;transform:translateY(0)}
 
-/* ── MOBILE RESPONSIVE ── */
+/* 9. SOCIAL ICONS — 1.65s */
+.hero .socials{
+  opacity:0;transform:translateY(10px);
+  transition:
+    opacity   .8s cubic-bezier(.16,1,.3,1) 1.65s,
+    transform .8s cubic-bezier(.16,1,.3,1) 1.65s;
+}
+.hero.entered .socials{opacity:1;transform:translateY(0)}
+
+/* 10. SCROLL HINT — 2.0s */
+.hero .hero-scroll-hint{
+  opacity:0;
+  transition: opacity .8s ease 2.0s;
+}
+.hero.entered .hero-scroll-hint{opacity:1}
+
+/* ── HERO GRID BACKGROUND (subtle fade) ── */
+.hero-grid{opacity:0;transition:opacity 1.5s ease 1.0s}
+.hero.entered .hero-grid{opacity:.06}
+
+/* ── REVEAL ── */
+.r{opacity:0;transform:translateY(24px);transition:all .6s cubic-bezier(.16,1,.3,1)}
+.r.v{opacity:1;transform:translateY(0)}
+
+/* ── RESPONSIVE ── */
+
+/* ── TABLET (769–1024px) ── */
+@media(max-width:1024px){
+  .hero{gap:1vw;padding:0 3vw}
+  .hero-content{max-width:440px;margin-left:-3vw}
+  .hero-visual{flex:0 0 45vw;height:auto}
+  .hero-visual.img-live{transform:translateX(-2vw) scale(1)}
+  h1{font-size:clamp(2.8rem,6vw,5rem)}
+  .hero-tagline{font-size:clamp(1.2rem,2.2vw,1.8rem)}
+  .about-grid{gap:2.5rem}
+  .pgrid{gap:1rem}
+  .modal{max-width:560px}
+}
+
+/* ── MOBILE (≤768px) ── */
 @media(max-width:768px){
-  .nav-links{display:none}
-  .nav-links.active{
-    display:flex;flex-direction:column;
-    position:absolute;top:60px;left:0;right:0;
-    background:var(--nav-bg);border-bottom:1px solid var(--border);
-    gap:1rem;padding:1.5rem;
+  /* NAV */
+  nav{padding:.8rem 4vw}
+  .nav-tag{display:none}
+  .nav-links{gap:.8rem}
+  .nav-links a{font-size:.55rem;letter-spacing:1.5px}
+  .nav-logo{font-size:1.2rem;padding:.1rem .4rem}
+
+  /* GLOBAL SECTIONS */
+  section{padding:4rem 5vw}
+  .stitle{font-size:clamp(1.5rem,5vw,2rem);margin-bottom:2rem}
+  .label{font-size:.6rem;letter-spacing:3px}
+
+  /* HERO — STACKED COLUMN */
+  .hero{
+    flex-direction:column;
+    padding:5.5rem 5vw 2.5rem;
+    gap:1rem;
+    min-height:auto;
   }
-  .mobile-menu-btn{display:flex}
+  .hero-content{
+    max-width:100%;
+    margin-left:0;
+    order:2;
+    text-align:center;
+    align-items:center;
+  }
+  .hero-eyebrow{justify-content:center;font-size:.55rem}
+  .hero-eyebrow::before{display:none}
+  .pillars{flex-wrap:wrap;justify-content:center;gap:.4rem}
+  .pill{font-size:.55rem;padding:.35rem .7rem}
+  h1{font-size:clamp(2.2rem,9vw,3.5rem);text-align:center;line-height:1.1}
+  .hero-tagline{font-size:clamp(1rem,3.5vw,1.4rem);text-align:center}
+  .hero-sub{font-size:.88rem;text-align:center;margin-left:auto;margin-right:auto;max-width:90%}
+  .hero-cta{justify-content:center;gap:.6rem;flex-wrap:wrap}
+  .btn{font-size:.65rem;padding:.65rem 1.2rem;letter-spacing:2px}
+  .socials{justify-content:center}
+  .hero-visual,
+  .hero-visual.img-live{
+    flex:0 0 auto;
+    width:90%;
+    max-width:380px;
+    height:auto !important;
+    margin:0 auto;
+    order:1;
+    transform:none !important;
+    opacity:1 !important;
+    transition:none !important;
+    pointer-events:auto;
+  }
+  .hero-visual img,
+  .hero-visual.img-live img{
+    width:100% !important;
+    height:auto !important;
+    max-height:60vh;
+    object-fit:contain;
+    display:block;
+  }
+  .hero-grid{width:100%;opacity:.03}
+  .hero-scroll-hint{display:none}
+
+  /* LINK PREVIEW — hide on mobile */
+  .link-preview{display:none !important}
+
+  /* PHILOSOPHY CARDS */
+  .pgrid{grid-template-columns:1fr}
+  .pcard{padding:1.8rem 1.4rem}
+  .pcard-icon{height:100px}
+
+  /* ABOUT */
   .about-grid{grid-template-columns:1fr;gap:2rem}
-  .pgrid{grid-template-columns:1fr 1fr}
+  .about-text{font-size:.88rem;line-height:1.7}
+  .sgrid{grid-template-columns:1fr 1fr;gap:.8rem}
+  .scard{padding:1.2rem}
+  .snum{font-size:2rem}
+
+  /* PROJECTS */
+  .projgrid{grid-template-columns:1fr}
+  .proj-top{height:180px}
+  .proj-body{padding:1.4rem}
+  .proj-body h3{font-size:1.05rem}
+  .proj-body p{font-size:.82rem;line-height:1.6}
+  .tags{gap:.3rem}
+  .tag{font-size:.52rem;padding:.2rem .45rem}
+
+
+  /* SKILLS */
+  .skills-tabs{gap:.35rem;flex-wrap:wrap;justify-content:center}
+  .skill-tab{font-size:.55rem;padding:.35rem .8rem;letter-spacing:2px}
+  .cloud{gap:.4rem}
+  .chip{font-size:.68rem;padding:.4rem .8rem}
+
+  /* CONTACT */
+  .contact-layout{grid-template-columns:1fr;gap:2rem}
+  .contact-intro{text-align:center}
+  .contact-intro h2{font-size:clamp(1.6rem,5vw,2.4rem)}
+  .contact-intro p{margin-left:auto;margin-right:auto;font-size:.88rem}
+  .avail-badge{justify-content:center}
+  .contact-cards{grid-template-columns:1fr 1fr}
+  .cc{padding:1.2rem 1rem}
+  .cc-value{font-size:.75rem;word-break:break-all}
+
+  /* MODALS */
+  .modal{width:95%;max-height:90vh}
+  .modal-hero{height:160px}
+  .modal-body{padding:1.5rem}
+  .modal-body h2{font-size:1.4rem}
+  .modal-stats{grid-template-columns:repeat(3,1fr);gap:.6rem}
+  .modal-stat-num{font-size:1.3rem}
+
+  /* FOOTER */
+  footer{grid-template-columns:1fr;text-align:center;padding:2rem 5vw 1.5rem;gap:1.5rem}
+  .footer-links{justify-content:center;gap:1rem;flex-wrap:wrap}
+  .footer-right{text-align:center}
+  .footer-logo{font-size:1.4rem}
+
+  /* SECTION NUMBERS */
+  .section-num{display:none}
+
+  /* BRAND MARQUEE */
+  .brand-item{padding:0 1.2rem;font-size:.65rem}
+
+  /* CURSOR — disable on touch */
+  #cursor-dot,#cursor-ring{display:none !important}
+  *{cursor:auto !important}
+
+  /* BACK TO TOP */
+  #back-top{width:44px;height:44px;bottom:1.5rem;right:1.2rem}
+
+  /* PREVENT OVERFLOW */
+  img,video,canvas,svg{max-width:100%;height:auto}
+  #heroParticles{display:none}
 }
 
+/* ── SMALL PHONE (≤480px) ── */
 @media(max-width:480px){
-  h1{font-size:clamp(2.8rem,12vw,4rem)}
-  .hero{padding-top:100px}
-  .pgrid{grid-template-columns:1fr}
-  .modal{width:95%;max-height:90vh}
-  .chat-widget-panel{width:90%;right:5%;left:5%;bottom:100px}
-  .cookie-banner{padding:1.2rem}
-  .cookie-inner{flex-direction:column;gap:1.2rem}
-  .cookie-actions{flex-direction:row;flex-wrap:wrap;width:100%}
-  .cookie-accept,.cookie-decline{flex:1;text-align:center}
+  .hero{padding:4.5rem 4vw 2rem}
+  .hero-visual{width:92%;max-width:300px}
+  h1{font-size:clamp(1.8rem,10vw,2.8rem);line-height:1.05}
+  .hero-tagline{font-size:clamp(.9rem,3.2vw,1.2rem)}
+  .hero-sub{font-size:.82rem;max-width:95%}
+  .hero-cta{flex-direction:column;align-items:center;gap:.5rem}
+  .btn{width:100%;max-width:260px;text-align:center;font-size:.7rem;padding:.6rem 1rem}
+  .contact-cards{grid-template-columns:1fr}
+  .sgrid{grid-template-columns:1fr}
+  .modal-stats{grid-template-columns:1fr;text-align:center}
+  .pillars{flex-direction:column;align-items:center}
+  .pill{width:100%;max-width:220px;text-align:center;font-size:.65rem}
+  .about-frame{padding:1.2rem}
+  .about-quote{font-size:1rem}
+  .about-text{font-size:.82rem}
+  nav{padding:.6rem 3vw}
+  .nav-links{gap:.4rem}
+  .nav-links a{font-size:.6rem;letter-spacing:1px}
+  .nav-logo{font-size:1rem;padding:.08rem .3rem}
+  section{padding:3rem 4vw}
+  .stitle{font-size:clamp(1.3rem,6vw,1.8rem)}
+  .pcard{padding:1.4rem 1.2rem}
+  .chip{font-size:.6rem;padding:.3rem .6rem}
+  .cc{padding:1rem .8rem}
+  .cc-value{font-size:.65rem}
+  footer{padding:1.5rem 4vw 1rem}
+  .footer-logo{font-size:1.2rem}
+}
+
+/* ── CUSTOM CURSOR ── */
+*{cursor:none}
+#cursor-dot{
+  width:6px;height:6px;background:#C8F900;border-radius:50%;
+  position:fixed;pointer-events:none;z-index:99999;
+  transform:translate(-50%,-50%);transition:none;
+  box-shadow:0 0 8px rgba(200,249,0,.8);
+}
+#cursor-ring{
+  width:32px;height:32px;border:1.5px solid rgba(200,249,0,.55);
+  border-radius:50%;position:fixed;pointer-events:none;z-index:99998;
+  transform:translate(-50%,-50%);
+  transition:width .25s ease,height .25s ease,border-color .25s ease,background .25s ease,transform .1s ease;
+}
+body.cursor-hover #cursor-ring{
+  width:52px;height:52px;border-color:rgba(200,249,0,.9);
+  background:rgba(200,249,0,.04);
+}
+body.cursor-click #cursor-dot{transform:translate(-50%,-50%) scale(2.5)}
+@media(hover:none),(pointer:coarse){
+  #cursor-dot,#cursor-ring{display:none !important}
+  *{cursor:auto !important}
+  /* Ensure min 44px tap targets for touch */
+  .soc{width:44px;height:44px}
+  .btn{min-height:44px}
+  .skill-tab{min-height:40px}
+  .chip{min-height:38px}
+  .toggle{min-width:48px;min-height:28px}
+  .nav-links a{min-height:44px;display:flex;align-items:center}
+}
+
+/* ── SCROLL PROGRESS ── */
+#scroll-progress{
+  position:fixed;top:0;left:0;height:2px;width:0%;z-index:99990;
+  background:linear-gradient(90deg,#C8F900 0%,rgba(200,249,0,.5) 100%);
+  box-shadow:0 0 10px rgba(200,249,0,.6),0 0 20px rgba(200,249,0,.3);
+  transition:width .08s linear;
+}
+
+/* ── BACK TO TOP ── */
+#back-top{
+  position:fixed;bottom:2.2rem;right:2rem;
+  width:52px;height:52px;border-radius:50%;
+  background:var(--orange);border:none;
+  color:#000;font-size:1.1rem;font-weight:900;cursor:none;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transform:translateY(16px) scale(0.85);pointer-events:none;
+  transition:all .4s cubic-bezier(.16,1,.3,1);z-index:900;
+  box-shadow:0 4px 20px rgba(200,249,0,.35),0 2px 8px rgba(0,0,0,.3);
+}
+#back-top.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto}
+#back-top:hover{
+  transform:translateY(-3px) scale(1.08);
+  box-shadow:0 8px 32px rgba(200,249,0,.55),0 4px 16px rgba(0,0,0,.3);
+}
+#back-top svg{width:20px;height:20px;fill:#000}
+
+/* ── TOAST ── */
+#toast{
+  position:fixed;bottom:2.5rem;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--bg-card);border:1px solid var(--orange);color:var(--orange);
+  font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;
+  padding:.7rem 1.6rem;z-index:99997;opacity:0;transition:all .4s ease;
+  pointer-events:none;white-space:nowrap;
+  box-shadow:0 8px 32px rgba(0,0,0,.4),0 0 20px rgba(200,249,0,.15);
+}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ── BRAND MARQUEE ── */
+.brand-strip{
+  overflow:hidden;padding:.9rem 0;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  background:linear-gradient(90deg,var(--bg) 0%,var(--orange-dim) 50%,var(--bg) 100%);
+  position:relative;z-index:1;
+}
+.brand-strip::before,.brand-strip::after{
+  content:'';position:absolute;top:0;width:8rem;height:100%;z-index:2;
+}
+.brand-strip::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.brand-strip::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
+.brand-inner{
+  display:flex;gap:0;white-space:nowrap;
+  animation:marquee-scroll 28s linear infinite;
+  width:max-content;
+}
+.brand-inner:hover{animation-play-state:paused}
+@keyframes marquee-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.brand-item{
+  font-family:"Bebas Neue",sans-serif;font-size:.78rem;letter-spacing:4px;
+  color:var(--dim);text-transform:uppercase;padding:0 2.5rem;
+  transition:color .3s;
+}
+.brand-item .sep{color:var(--orange);opacity:.5;margin:0 .2rem}
+
+/* ── SECTION NUMBERS ── */
+.section-num{
+  position:absolute;top:2.5rem;right:6vw;
+  font-family:"Bebas Neue",sans-serif;font-size:clamp(4rem,8vw,7rem);
+  color:var(--border);line-height:1;user-select:none;pointer-events:none;
+  letter-spacing:-3px;opacity:.4;
+}
+
+/* ── HERO IMPROVEMENTS ── */
+.hero-eyebrow{
+  font-size:.65rem;letter-spacing:5px;color:var(--orange);text-transform:uppercase;
+  font-weight:600;margin-bottom:1.2rem;display:flex;align-items:center;gap:.8rem;
+}
+.hero-eyebrow::before{
+  content:'';display:inline-block;width:32px;height:1px;background:var(--orange);
+}
+.hero-scroll-hint{
+  position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);
+  display:flex;align-items:center;gap:.6rem;
+  font-size:.6rem;letter-spacing:3px;text-transform:uppercase;color:var(--dim);
+}
+.hero-scroll-hint::after{
+  content:'';display:inline-block;width:40px;height:1px;
+  background:linear-gradient(90deg,var(--dim),transparent);
+}
+.scroll-arrow{
+  width:20px;height:20px;border-right:1.5px solid var(--dim);border-bottom:1.5px solid var(--dim);
+  transform:rotate(45deg);animation:bounce-down 1.8s ease infinite;
+}
+@keyframes bounce-down{0%,100%{transform:rotate(45deg) translateY(0)}50%{transform:rotate(45deg) translateY(4px)}}
+
+/* ── NAV ACTIVE STATE ── */
+.nav-links a.active{color:var(--orange)}
+.nav-links a.active::after{
+  content:'';display:block;width:100%;height:1.5px;background:var(--orange);
+  margin-top:2px;
+}
+
+/* ── IMPROVED PILL BADGES ── */
+.pill{
+  border-radius:0;
+  position:relative;overflow:hidden;
+}
+.pill::after{
+  content:'';position:absolute;bottom:0;left:0;width:0;height:1.5px;
+  background:var(--orange);transition:width .4s ease;
+}
+.pill:hover::after{width:100%}
+
+/* ── SKILLS TABS ── */
+.skills-tabs{
+  display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2rem;
+}
+.skill-tab{
+  font-family:inherit;font-size:.65rem;font-weight:600;letter-spacing:2.5px;
+  text-transform:uppercase;padding:.45rem 1.1rem;
+  background:transparent;border:1px solid var(--border);color:var(--dim);
+  cursor:none;transition:all .25s;
+}
+.skill-tab:hover,.skill-tab.active{
+  border-color:var(--orange);color:var(--orange);background:var(--orange-dim);
+}
+.chip{transition:all .3s;will-change:transform,opacity}
+.chip.hidden{display:none}
+
+/* ── AVAILABILITY BADGE ── */
+.avail-badge{
+  display:inline-flex;align-items:center;gap:.5rem;
+  font-size:.68rem;letter-spacing:2px;text-transform:uppercase;
+  color:var(--gray);font-weight:500;margin-top:1.5rem;
+  padding:.45rem .9rem;border:1px solid var(--border);
+}
+.avail-dot{
+  width:7px;height:7px;border-radius:50%;background:#22c55e;flex-shrink:0;
+  box-shadow:0 0 6px rgba(34,197,94,.6);
+  animation:avail-pulse 2.5s ease infinite;
+}
+@keyframes avail-pulse{
+  0%,100%{box-shadow:0 0 4px rgba(34,197,94,.4)}
+  50%{box-shadow:0 0 12px rgba(34,197,94,.8),0 0 20px rgba(34,197,94,.3)}
+}
+
+/* ── CONTACT REDESIGN ── */
+.contact{text-align:left}
+.contact .stitle::after{left:0;transform:none}
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.contact-intro h2{
+  font-family:"Bebas Neue",sans-serif;
+  font-size:clamp(2rem,4vw,3.2rem);letter-spacing:3px;margin-bottom:1rem;
+}
+.contact-intro p{color:var(--gray);font-size:1rem;line-height:1.8;font-weight:300;max-width:400px}
+.contact-cards{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.cc{
+  background:var(--bg-card);border:1px solid var(--border);
+  padding:1.6rem 1.4rem;text-decoration:none;
+  transition:all .35s cubic-bezier(.16,1,.3,1);display:flex;flex-direction:column;gap:.5rem;
+  position:relative;overflow:hidden;
+}
+.cc::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--orange);transform:scaleX(0);transform-origin:left;
+  transition:transform .4s cubic-bezier(.16,1,.3,1);
+}
+.cc:hover{border-color:var(--orange);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.2),0 0 30px rgba(200,249,0,.06)}
+.cc:hover::before{transform:scaleX(1)}
+.cc-icon{width:32px;height:32px;display:flex;align-items:center;justify-content:center;margin-bottom:.3rem}
+.cc-icon svg{width:18px;height:18px;fill:var(--orange)}
+.cc-label{font-size:.6rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--dim);font-weight:600}
+.cc-value{font-size:.82rem;color:var(--white);font-weight:500;word-break:break-all}
+.cc-arrow{
+  font-size:.7rem;color:var(--orange);align-self:flex-end;margin-top:.2rem;
+  opacity:0;transform:translateX(-4px);transition:all .3s;
+}
+.cc:hover .cc-arrow{opacity:1;transform:translateX(0)}
+
+/* ── IMPROVED PROJECT CARDS ── */
+.proj-hint{
+  position:absolute;top:.8rem;right:.8rem;
+  font-size:.55rem;letter-spacing:2px;text-transform:uppercase;
+  color:var(--dim);border:1px solid var(--border);padding:.25rem .5rem;
+  opacity:0;transition:opacity .3s;
+}
+.proj:hover .proj-hint{opacity:1}
+.proj-top{position:relative}
+
+/* ── IMPROVED TIMELINE ── */
+
+/* ── ENHANCED STAT CARDS ── */
+.scard{position:relative;overflow:hidden}
+.scard::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--orange),transparent);
+  opacity:0;transition:opacity .35s;
+}
+.scard:hover::after{opacity:1}
+.snum{position:relative}
+
+/* ── FOOTER REDESIGN ── */
+footer{
+  padding:3rem 6vw 2rem;
+  border-top:1px solid var(--border);
+  display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:end;
+}
+.footer-left{}
+.footer-logo{
+  font-family:"Bebas Neue",sans-serif;font-size:1.8rem;letter-spacing:3px;
+  color:var(--orange);margin-bottom:.4rem;
+}
+.footer-tagline{color:var(--dim);font-size:.7rem;letter-spacing:2px;text-transform:uppercase}
+.footer-right{text-align:right}
+.footer-links{display:flex;gap:1.5rem;justify-content:flex-end;margin-bottom:.8rem}
+.footer-links a{
+  font-size:.65rem;letter-spacing:2px;text-transform:uppercase;
+  color:var(--dim);text-decoration:none;transition:color .25s;
+}
+.footer-links a:hover{color:var(--orange)}
+.footer-copy{color:var(--dim);font-size:.65rem;letter-spacing:1.5px}
+.footer-copy b{color:var(--orange)}
+
+/* ── ABOUT PHOTO FRAME ── */
+.about-frame{
+  background:var(--bg-card);border:1px solid var(--border);
+  padding:2rem;display:flex;flex-direction:column;gap:1.5rem;
+}
+.about-quote{
+  font-family:"Caveat",cursive;font-size:1.3rem;line-height:1.5;
+  color:var(--orange);position:relative;padding-left:1.5rem;
+}
+.about-quote::before{
+  content:'"';position:absolute;left:0;top:-5px;font-size:2.5rem;
+  color:var(--orange);opacity:.4;font-family:"Bebas Neue",sans-serif;line-height:1;
+}
+.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+
+/* ── GLITCH EFFECT ON HOVER ── */
+@keyframes glitch-1{
+  0%,100%{clip-path:inset(40% 0 61% 0)}
+  25%{clip-path:inset(92% 0 1% 0)}
+  50%{clip-path:inset(43% 0 1% 0)}
+  75%{clip-path:inset(25% 0 58% 0)}
+}
+@keyframes glitch-2{
+  0%,100%{clip-path:inset(2% 0 98% 0)}
+  25%{clip-path:inset(58% 0 43% 0)}
+  50%{clip-path:inset(15% 0 40% 0)}
+  75%{clip-path:inset(70% 0 10% 0)}
+}
+
+/* ── PROGRESS RING ON SKILLS ── */
+.skill-category-label{
+  font-size:.6rem;letter-spacing:3px;text-transform:uppercase;
+  color:var(--dim);font-weight:600;margin:1.5rem 0 .6rem;width:100%;
+}
+
+/* ── RESPONSIVE ADDITIONS (merged into main responsive block above) ── */
+
+/* ── HOVER TRANSITION ON ALL INTERACTIVE ── */
+a,button,.btn,.chip,.tag,.pill,.soc,.clink,.cc,.pcard,.proj,.scard{
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible,button:focus-visible{
+  outline:2px solid var(--orange);outline-offset:3px;
 }
 </style>
 </head>
 <body>
 
-<!-- Navigation -->
+<!-- Custom cursor -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- Scroll progress bar -->
+<div id="scroll-progress"></div>
+
+<!-- Back to top -->
+<button id="back-top" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/></svg>
+</button>
+
+<!-- Toast notification -->
+<div id="toast" role="alert" aria-live="polite"></div>
+
+<!-- ═══ TD MOVEMENT TEXT INTRO ═══ -->
+<div id="puzzleIntro">
+  <div class="intro-bg"></div>
+  <div class="intro-glow" id="introGlow"></div>
+  <div class="intro-text-wrap" id="introTextWrap">
+    <div class="intro-word intro-td" id="introTD">TD</div>
+    <div class="intro-word intro-movement" id="introMovement">MOVEMENT</div>
+  </div>
+  <div class="puzzle-tagline" id="puzzleTag">RELENTLESS &nbsp;&bull;&nbsp; MOVEMENT</div>
+</div>
+
+<!-- ═══ NEURAL NETWORK CONSTELLATION BACKGROUND ═══ -->
+<canvas id="neuralBg" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:.12;transition:opacity .4s"></canvas>
+
 <nav>
   <div class="nav-left">
     <a href="#" class="nav-logo">TD</a>
-    <span class="nav-tag">Relentless &bullet; Movement</span>
+    <span class="nav-tag">People &bull; Process &bull; Technology</span>
   </div>
   <div class="nav-right">
     <ul class="nav-links">
@@ -776,119 +1118,57 @@ nav.show{opacity:1;transform:translateY(0)}
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button class="toggle" id="themeToggle" aria-label="Toggle theme" type="button"></button>
-    <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Toggle mobile menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <button class="toggle" id="themeToggle" aria-label="Toggle theme"></button>
   </div>
 </nav>
 
-<!-- Scroll Progress Line -->
-<div id="scroll-line" aria-hidden="true"></div>
-
-<!-- Hero Section -->
+<!-- HERO -->
 <section class="hero">
-  <canvas id="particle-canvas" aria-hidden="true"></canvas>
   <div class="hero-grid"></div>
-  <!-- Futuristic AI Brain Illustration -->
+  <!-- TD Movement Puzzle Head Hero Image -->
   <div class="hero-visual">
-    <svg viewBox="0 0 400 400" fill="none" aria-hidden="true">
-      <!-- Outer orbiting ring -->
-      <g style="animation:orbit 20s linear infinite;transform-origin:200px 200px">
-        <ellipse cx="200" cy="200" rx="180" ry="180" stroke="var(--orange)" stroke-width=".5" opacity=".15" stroke-dasharray="8,8"/>
-        <circle cx="380" cy="200" r="4" fill="var(--orange)" opacity=".6"/>
-        <circle cx="20" cy="200" r="3" fill="var(--orange)" opacity=".3"/>
-      </g>
-      <!-- Mid orbiting ring -->
-      <g style="animation:orbitR 15s linear infinite;transform-origin:200px 200px">
-        <ellipse cx="200" cy="200" rx="140" ry="140" stroke="var(--orange)" stroke-width=".5" opacity=".12" stroke-dasharray="4,12"/>
-        <circle cx="200" cy="60" r="3.5" fill="var(--orange)" opacity=".5"/>
-        <circle cx="200" cy="340" r="2.5" fill="var(--orange)" opacity=".25"/>
-      </g>
-      <!-- Inner ring -->
-      <g style="animation:orbit 25s linear infinite;transform-origin:200px 200px">
-        <ellipse cx="200" cy="200" rx="100" ry="100" stroke="var(--orange)" stroke-width=".7" opacity=".1"/>
-        <circle cx="300" cy="200" r="3" fill="var(--orange)" opacity=".4"/>
-      </g>
-      <!-- Core brain / neural network -->
-      <circle cx="200" cy="200" r="60" stroke="var(--orange)" stroke-width="1" opacity=".2"/>
-      <circle cx="200" cy="200" r="35" stroke="var(--orange)" stroke-width=".8" opacity=".15"/>
-      <!-- Central AI core -->
-      <circle cx="200" cy="200" r="12" fill="var(--orange)" opacity=".15"/>
-      <circle cx="200" cy="200" r="6" fill="var(--orange)" opacity=".4"/>
-      <!-- Neural nodes -->
-      <circle cx="200" cy="155" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 3s ease infinite"/>
-      <circle cx="240" cy="175" r="3.5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease .5s infinite"/>
-      <circle cx="240" cy="220" r="3" fill="var(--orange)" opacity=".35" style="animation:pulse 3s ease 1s infinite"/>
-      <circle cx="200" cy="245" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 3s ease 1.5s infinite"/>
-      <circle cx="160" cy="220" r="3" fill="var(--orange)" opacity=".35" style="animation:pulse 3s ease 2s infinite"/>
-      <circle cx="160" cy="175" r="3.5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease 2.5s infinite"/>
-      <!-- Neural connections -->
-      <line x1="200" y1="155" x2="240" y2="175" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <line x1="240" y1="175" x2="240" y2="220" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <line x1="240" y1="220" x2="200" y2="245" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <line x1="200" y1="245" x2="160" y2="220" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <line x1="160" y1="220" x2="160" y2="175" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <line x1="160" y1="175" x2="200" y2="155" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
-      <!-- Cross connections -->
-      <line x1="200" y1="155" x2="200" y2="245" stroke="var(--orange)" stroke-width=".4" opacity=".1"/>
-      <line x1="160" y1="175" x2="240" y2="220" stroke="var(--orange)" stroke-width=".4" opacity=".1"/>
-      <line x1="240" y1="175" x2="160" y2="220" stroke="var(--orange)" stroke-width=".4" opacity=".1"/>
-      <!-- Outer floating data nodes -->
-      <circle cx="120" cy="120" r="2.5" fill="var(--orange)" opacity=".25" style="animation:pulse 4s ease 1s infinite"/>
-      <line x1="120" y1="120" x2="168" y2="168" stroke="var(--orange)" stroke-width=".3" opacity=".1" stroke-dasharray="3,4"/>
-      <circle cx="280" cy="120" r="2" fill="var(--orange)" opacity=".2" style="animation:pulse 4s ease 2s infinite"/>
-      <line x1="280" y1="120" x2="232" y2="168" stroke="var(--orange)" stroke-width=".3" opacity=".1" stroke-dasharray="3,4"/>
-      <circle cx="280" cy="280" r="2.5" fill="var(--orange)" opacity=".25" style="animation:pulse 4s ease 0s infinite"/>
-      <line x1="280" y1="280" x2="232" y2="232" stroke="var(--orange)" stroke-width=".3" opacity=".1" stroke-dasharray="3,4"/>
-      <circle cx="120" cy="280" r="2" fill="var(--orange)" opacity=".2" style="animation:pulse 4s ease 1.5s infinite"/>
-      <line x1="120" y1="280" x2="168" y2="232" stroke="var(--orange)" stroke-width=".3" opacity=".1" stroke-dasharray="3,4"/>
-      <!-- Far orbit data points -->
-      <circle cx="90" cy="200" r="1.5" fill="var(--orange)" opacity=".15"/>
-      <circle cx="310" cy="200" r="1.5" fill="var(--orange)" opacity=".15"/>
-      <circle cx="200" cy="90" r="1.5" fill="var(--orange)" opacity=".15"/>
-      <circle cx="200" cy="310" r="1.5" fill="var(--orange)" opacity=".15"/>
-    </svg>
+    <img src="puzzle_head.png" alt="The TD Movement — Puzzle Brain" onerror="this.style.display='none';console.warn('TD Movement: hero image failed to load — check puzzle_head.png is in the same folder as index.html');" />
+    <canvas id="heroParticles"></canvas>
   </div>
+  <div class="hero-content">
+  <div class="hero-eyebrow">Lead Technical Recruiter &mdash; Nike Global Technology</div>
   <div class="pillars">
-    <span class="pill">Relentless Advancement</span>
+    <span class="pill">Relentless<br>Advancement</span>
     <span class="pill-sep">/</span>
-    <span class="pill">Relentless Breakthroughs</span>
+    <span class="pill">Relentless<br>Breakthroughs</span>
     <span class="pill-sep">/</span>
-    <span class="pill">Relentless Movement</span>
+    <span class="pill">Relentless<br>Movement</span>
   </div>
   <h1>
     <span class="thin">THE</span> <span class="orange">TD</span><br>
     <span class="hand">Movement</span>
-    <span class="movement">advance. break through. move.</span>
   </h1>
+  <p class="hero-tagline">ADVANCE. BREAK<br>THROUGH. MOVE.</p>
   <p class="hero-sub">
-    The recruiter hiring managers call when the search is hard, the stakes are high,
-    and the standard can't slip. <strong>Lead Recruiter</strong> building the bridge
-    between elite human talent and machine intelligence.
+    The recruiter hiring managers call when the search is hard, the stakes are
+    high, and the standard can't slip. <strong>Lead Recruiter</strong> building the bridge between
+    elite human talent and machine intelligence.
   </p>
   <div class="hero-cta">
     <a href="#projects" class="btn btn-fill">See the Work</a>
-    <a href="Troy_Dixon_Resume.docx" class="btn btn-ghost" download>Resume</a>
+    <a href="Troy_Dixon_Resume.pdf" class="btn btn-ghost" download="Troy_Dixon_Resume.pdf">Resume</a>
     <a href="#contact" class="btn btn-ghost">Connect</a>
   </div>
   <div class="socials">
     <span class="link-preview-wrap">
-      <a href="https://linkedin.com/in/trdixon" class="soc" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <a href="https://www.linkedin.com/in/trdixon" class="soc" target="_blank" title="LinkedIn">
         <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
       </a>
       <div class="link-preview">
         <div class="lp-icon"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
         <div class="lp-bar"><div class="lp-bar-fill"></div></div>
         <div class="lp-title">Troy Dixon — LinkedIn</div>
-        <div class="lp-desc">Lead Technical Recruiter. Relentless Advancement. Relentless Breakthroughs. Relentless Movement.</div>
+        <div class="lp-desc">Lead Technical Recruiter at Nike Global Technology. 10+ years FAANG recruiting. People. Process. Technology.</div>
         <div class="lp-url">linkedin.com/in/trdixon</div>
       </div>
     </span>
     <span class="link-preview-wrap">
-      <a href="https://github.com/troyd12" class="soc" target="_blank" rel="noopener noreferrer" title="GitHub">
+      <a href="https://github.com/troyd12" class="soc" target="_blank" title="GitHub">
         <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
       </a>
       <div class="link-preview">
@@ -911,81 +1191,129 @@ nav.show{opacity:1;transform:translateY(0)}
         <div class="lp-url">troyd12@gmail.com</div>
       </div>
     </span>
-    <!-- Instagram -->
     <span class="link-preview-wrap">
-      <a href="https://instagram.com/tdmovement" class="soc" target="_blank" rel="noopener noreferrer" title="Instagram">
+      <a href="tel:9095101279" class="soc" title="Phone">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      </a>
+      <div class="link-preview">
+        <div class="lp-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+        <div class="lp-bar"><div class="lp-bar-fill"></div></div>
+        <div class="lp-title">Call Troy</div>
+        <div class="lp-desc">Available for calls — recruiting strategy, pipeline reviews, or AI demo walkthroughs.</div>
+        <div class="lp-url">909.510.1279</div>
+      </div>
+    </span>
+    <span class="link-preview-wrap">
+      <a href="https://instagram.com/troydixon" class="soc" target="_blank" title="Instagram">
         <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
       </a>
       <div class="link-preview">
         <div class="lp-icon"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
         <div class="lp-bar"><div class="lp-bar-fill"></div></div>
-        <div class="lp-title">@tdmovement — Instagram</div>
-        <div class="lp-desc">Follow the TD Movement — AI recruiting insights, workflow builds, and talent strategy content.</div>
-        <div class="lp-url">instagram.com/tdmovement</div>
+        <div class="lp-title">@troydixon — Instagram</div>
+        <div class="lp-desc">Behind-the-scenes recruiting innovation, AI workflows, and The TD Movement in action.</div>
+        <div class="lp-url">instagram.com/troydixon</div>
       </div>
     </span>
-    <!-- TikTok -->
     <span class="link-preview-wrap">
-      <a href="https://tiktok.com/@tdmovement" class="soc" target="_blank" rel="noopener noreferrer" title="TikTok">
-        <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.56V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+      <a href="https://tiktok.com/@troydixon" class="soc" target="_blank" title="TikTok">
+        <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.78a8.18 8.18 0 004.84 1.56V6.89a4.85 4.85 0 01-1.07-.2z"/></svg>
       </a>
       <div class="link-preview">
-        <div class="lp-icon"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.56V6.79a4.85 4.85 0 01-1.07-.1z"/></svg></div>
+        <div class="lp-icon"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.78a8.18 8.18 0 004.84 1.56V6.89a4.85 4.85 0 01-1.07-.2z"/></svg></div>
         <div class="lp-bar"><div class="lp-bar-fill"></div></div>
-        <div class="lp-title">@tdmovement — TikTok</div>
-        <div class="lp-desc">Short-form AI recruiting content, workflow demos, and talent strategy breakdowns.</div>
-        <div class="lp-url">tiktok.com/@tdmovement</div>
+        <div class="lp-title">@troydixon — TikTok</div>
+        <div class="lp-desc">Short-form recruiting insights, AI demos, and TD Movement content drops.</div>
+        <div class="lp-url">tiktok.com/@troydixon</div>
       </div>
     </span>
   </div>
+  <div class="hero-scroll-hint">Scroll</div>
+  </div><!-- /hero-content -->
 </section>
 
-<!-- Philosophy Section -->
-<section id="philosophy" class="alt-bg">
-  <div class="label">The Edge</div>
-  <div class="stitle">Philosophy</div>
+<!-- BRAND MARQUEE STRIP -->
+<div class="brand-strip">
+  <div class="brand-inner">
+    <span class="brand-item">Nike<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Global Technology<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Uber<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Amazon<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Kaiser Permanente<span class="sep"> &bull; </span></span>
+    <span class="brand-item">AI Recruiting<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Supply Chain Talent<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Principal Architects<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Claude AI<span class="sep"> &bull; </span></span>
+    <span class="brand-item">10+ Years FAANG<span class="sep"> &bull; </span></span>
+    <span class="brand-item">92% Offer Acceptance<span class="sep"> &bull; </span></span>
+    <span class="brand-item">The TD Movement<span class="sep"> &bull; </span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="brand-item">Nike<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Global Technology<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Uber<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Amazon<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Kaiser Permanente<span class="sep"> &bull; </span></span>
+    <span class="brand-item">AI Recruiting<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Supply Chain Talent<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Principal Architects<span class="sep"> &bull; </span></span>
+    <span class="brand-item">Claude AI<span class="sep"> &bull; </span></span>
+    <span class="brand-item">10+ Years FAANG<span class="sep"> &bull; </span></span>
+    <span class="brand-item">92% Offer Acceptance<span class="sep"> &bull; </span></span>
+    <span class="brand-item">The TD Movement<span class="sep"> &bull; </span></span>
+  </div>
+</div>
+
+<!-- PHILOSOPHY -->
+<section id="philosophy" class="alt-bg" style="position:relative">
+  <span class="section-num">01</span>
+  <div class="label r">The TD Framework</div>
+  <div class="stitle r">People. Process. Technology.</div>
   <div class="pgrid">
-    <div class="pcard">
+    <div class="pcard r">
       <div class="pcard-icon">
         <div class="glow"></div>
         <svg viewBox="0 0 200 120">
-          <circle cx="100" cy="60" r="45" stroke-width="1.5" opacity=".6"/>
-          <circle cx="100" cy="60" r="30" stroke-width="1" opacity=".4"/>
-          <circle cx="100" cy="60" r="15" stroke-width="1.2" opacity=".5"/>
-          <circle cx="100" cy="60" r="6" fill="var(--orange)" opacity=".4"/>
-          <circle cx="100" cy="35" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease infinite"/>
-          <circle cx="125" cy="50" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease .4s infinite"/>
-          <circle cx="125" cy="70" r="2.5" fill="var(--orange)" opacity=".4" style="animation:pulse 2s ease .8s infinite"/>
-          <circle cx="100" cy="85" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 1.2s infinite"/>
-          <circle cx="75" cy="70" r="2.5" fill="var(--orange)" opacity=".4" style="animation:pulse 2s ease 1.6s infinite"/>
-          <circle cx="75" cy="50" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 2s infinite"/>
-          <line x1="100" y1="35" x2="125" y2="50" stroke-width=".5" opacity=".2"/>
-          <line x1="125" y1="50" x2="125" y2="70" stroke-width=".5" opacity=".2"/>
-          <line x1="125" y1="70" x2="100" y2="85" stroke-width=".5" opacity=".2"/>
-          <line x1="100" y1="85" x2="75" y2="70" stroke-width=".5" opacity=".2"/>
-          <line x1="75" y1="70" x2="75" y2="50" stroke-width=".5" opacity=".2"/>
-          <line x1="75" y1="50" x2="100" y2="35" stroke-width=".5" opacity=".2"/>
+          <!-- Connected people network -->
+          <circle cx="100" cy="35" r="14" stroke-width="1.2" opacity=".6"/>
+          <path d="M80,70 Q80,52 100,52 Q120,52 120,70" stroke-width="1.2" opacity=".6"/>
+          <circle cx="50" cy="45" r="10" stroke-width=".8" opacity=".3"/>
+          <path d="M36,68 Q36,56 50,56 Q64,56 64,68" stroke-width=".8" opacity=".3"/>
+          <circle cx="150" cy="45" r="10" stroke-width=".8" opacity=".3"/>
+          <path d="M136,68 Q136,56 150,56 Q164,56 164,68" stroke-width=".8" opacity=".3"/>
+          <!-- Connection lines -->
+          <line x1="64" y1="45" x2="86" y2="38" stroke-width=".6" opacity=".2" stroke-dasharray="3,3"/>
+          <line x1="136" y1="45" x2="114" y2="38" stroke-width=".6" opacity=".2" stroke-dasharray="3,3"/>
+          <line x1="50" y1="68" x2="80" y2="70" stroke-width=".4" opacity=".15"/>
+          <line x1="150" y1="68" x2="120" y2="70" stroke-width=".4" opacity=".15"/>
+          <!-- Signal waves -->
+          <path d="M100,85 Q85,95 100,105 Q115,95 100,85" stroke-width=".5" opacity=".15"/>
+          <path d="M100,80 Q78,95 100,110 Q122,95 100,80" stroke-width=".4" opacity=".1"/>
         </svg>
       </div>
       <h3>People</h3>
-      <p>Recruiting isn't about filling headcount — it's about identifying the rare humans who unlock organizational potential. Every search is a hunt for excellence.</p>
+      <p>Finding the signal in the noise. I identify, attract, and close world-class talent — principal architects, supply chain leaders, ML engineers — who move the needle.</p>
     </div>
-    <div class="pcard">
+    <div class="pcard r">
       <div class="pcard-icon">
         <div class="glow"></div>
         <svg viewBox="0 0 200 120">
+          <!-- Pipeline / workflow diagram -->
           <rect x="15" y="25" width="40" height="30" rx="3" stroke-width="1" opacity=".5"/>
           <rect x="80" y="25" width="40" height="30" rx="3" stroke-width="1" opacity=".5"/>
           <rect x="145" y="25" width="40" height="30" rx="3" stroke-width="1" opacity=".5"/>
+          <!-- Arrows -->
           <path d="M55,40 L80,40" stroke-width=".8" opacity=".3"/>
           <path d="M75,37 L80,40 L75,43" stroke-width=".8" opacity=".3"/>
           <path d="M120,40 L145,40" stroke-width=".8" opacity=".3"/>
           <path d="M140,37 L145,40 L140,43" stroke-width=".8" opacity=".3"/>
+          <!-- Check marks inside boxes -->
           <path d="M28,40 L33,45 L43,35" stroke-width="1.2" opacity=".6"/>
           <path d="M93,40 L98,45 L108,35" stroke-width="1.2" opacity=".6"/>
           <circle cx="165" cy="40" r="6" stroke-width="1" opacity=".4" stroke-dasharray="2,2"/>
+          <!-- Metrics line below -->
           <line x1="15" y1="75" x2="185" y2="75" stroke-width=".4" opacity=".1"/>
           <path d="M15,95 L45,80 L75,88 L105,72 L135,82 L165,68 L185,75" stroke-width=".8" opacity=".25"/>
+          <!-- Data points -->
           <circle cx="45" cy="80" r="2" fill="var(--orange)" opacity=".3"/>
           <circle cx="105" cy="72" r="2" fill="var(--orange)" opacity=".4"/>
           <circle cx="165" cy="68" r="2.5" fill="var(--orange)" opacity=".5"/>
@@ -994,211 +1322,301 @@ nav.show{opacity:1;transform:translateY(0)}
       <h3>Process</h3>
       <p>Recruiting isn't guesswork — it's systems engineering. Repeatable, scalable pipelines that compress timelines and eliminate friction from source to signed offer.</p>
     </div>
-    <div class="pcard">
+    <div class="pcard r">
       <div class="pcard-icon">
         <div class="glow"></div>
         <svg viewBox="0 0 200 120">
-          <g style="animation:orbit 8s linear infinite;transform-origin:100px 60px">
-            <circle cx="145" cy="60" r="2.5" fill="var(--orange)" opacity=".4"/>
-          </g>
-          <circle cx="100" cy="30" r="3" fill="var(--orange)" opacity=".5" style="animation:pulse 3s ease infinite"/>
-          <circle cx="55" cy="60" r="2.5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease 1s infinite"/>
-          <circle cx="100" cy="90" r="3" fill="var(--orange)" opacity=".5" style="animation:pulse 3s ease 2s infinite"/>
-          <circle cx="100" cy="60" r="3" fill="var(--orange)" opacity=".6"/>
-          <line x1="100" y1="30" x2="100" y2="60" stroke-width=".6" opacity=".2"/>
-          <line x1="55" y1="60" x2="100" y2="60" stroke-width=".6" opacity=".2"/>
-          <line x1="100" y1="60" x2="100" y2="90" stroke-width=".6" opacity=".2"/>
-          <path d="M100,60 Q145,30 145,60" stroke-width=".6" opacity=".15" fill="none" stroke-dasharray="3,3"/>
-          <rect x="40" y="40" width="120" height="40" rx="4" stroke-width=".8" opacity=".15"/>
-          <text x="100" y="68" text-anchor="middle" font-size="12" fill="var(--orange)" opacity=".3">AI</text>
+          <!-- AI chip / circuit board -->
+          <rect x="65" y="25" width="70" height="70" rx="6" stroke-width="1.2" opacity=".4"/>
+          <rect x="80" y="40" width="40" height="40" rx="3" stroke-width=".8" opacity=".3"/>
+          <!-- Core -->
+          <circle cx="100" cy="60" r="10" stroke-width="1" opacity=".5"/>
+          <circle cx="100" cy="60" r="4" fill="var(--orange)" opacity=".25"/>
+          <!-- Circuit traces -->
+          <line x1="65" y1="40" x2="50" y2="40" stroke-width=".6" opacity=".2"/>
+          <line x1="65" y1="55" x2="40" y2="55" stroke-width=".6" opacity=".2"/>
+          <line x1="65" y1="70" x2="50" y2="70" stroke-width=".6" opacity=".2"/>
+          <line x1="65" y1="85" x2="45" y2="85" stroke-width=".6" opacity=".2"/>
+          <line x1="135" y1="40" x2="150" y2="40" stroke-width=".6" opacity=".2"/>
+          <line x1="135" y1="55" x2="160" y2="55" stroke-width=".6" opacity=".2"/>
+          <line x1="135" y1="70" x2="150" y2="70" stroke-width=".6" opacity=".2"/>
+          <line x1="135" y1="85" x2="155" y2="85" stroke-width=".6" opacity=".2"/>
+          <line x1="85" y1="25" x2="85" y2="12" stroke-width=".6" opacity=".2"/>
+          <line x1="100" y1="25" x2="100" y2="8" stroke-width=".6" opacity=".2"/>
+          <line x1="115" y1="25" x2="115" y2="12" stroke-width=".6" opacity=".2"/>
+          <line x1="85" y1="95" x2="85" y2="108" stroke-width=".6" opacity=".2"/>
+          <line x1="100" y1="95" x2="100" y2="112" stroke-width=".6" opacity=".2"/>
+          <line x1="115" y1="95" x2="115" y2="108" stroke-width=".6" opacity=".2"/>
+          <!-- Endpoint nodes -->
+          <circle cx="50" cy="40" r="2" fill="var(--orange)" opacity=".3"/>
+          <circle cx="40" cy="55" r="2" fill="var(--orange)" opacity=".25"/>
+          <circle cx="160" cy="55" r="2" fill="var(--orange)" opacity=".3"/>
+          <circle cx="155" cy="85" r="2" fill="var(--orange)" opacity=".25"/>
+          <circle cx="100" cy="8" r="2.5" fill="var(--orange)" opacity=".35"/>
+          <circle cx="100" cy="112" r="2.5" fill="var(--orange)" opacity=".35"/>
         </svg>
       </div>
       <h3>Technology</h3>
-      <p>AI is the multiplier. Claude-powered workflows, MCP servers, and intelligent automation turn recruiting from a bottleneck into a competitive advantage.</p>
+      <p>AI isn't replacing recruiters — it's upgrading them. Claude AI, automation agents, and intelligent workflows that turn talent acquisition into a competitive weapon.</p>
     </div>
   </div>
 </section>
 
-<!-- Projects / Work Section -->
-<section id="projects">
-  <div class="label">Execution</div>
-  <div class="stitle">Work</div>
+<!-- ABOUT -->
+<section id="about" style="position:relative">
+  <span class="section-num">02</span>
+  <div class="label r">About</div>
+  <div class="stitle r">Troy Dixon</div>
+  <div class="about-grid">
+    <div class="about-text r">
+      <p>
+        <span class="hl">Lead Recruiter</span> at <span class="hl">Nike Global Technology</span>,
+        currently on a stretch assignment with <span class="hl">Global Service & Places</span>
+        — hiring the talent most people can't find: principal architects, event planners,
+        and inventory supply chain leaders.
+      </p>
+      <p>
+        I've gone deep on <span class="hl">AI</span> — building automation workflows with Claude,
+        designing agent-powered pipelines, and creating tools that don't just make
+        recruiting faster, they make it <span class="hl">fundamentally different</span>.
+      </p>
+    </div>
+    <div class="sgrid r">
+      <div class="scard"><div class="snum" id="hireCounter">0</div><div class="slbl">Hires & Counting</div></div>
+      <div class="scard"><div class="snum" id="statOffers">92%</div><div class="slbl">Offer Acceptance Rate</div></div>
+      <div class="scard"><div class="snum" id="statProgram">$1B+</div><div class="slbl">Program Talent Supported</div></div>
+      <div class="scard"><div class="snum" id="statYears">10+</div><div class="slbl">Years FAANG Experience</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="alt-bg" style="position:relative">
+  <span class="section-num">03</span>
+  <div class="label r">Recent Builds</div>
+  <div class="stitle r">AI Work</div>
   <div class="projgrid">
-    <div class="proj" onclick="openModal('modal1')">
+    <div class="proj r">
       <div class="proj-top">
-        <div class="proj-glow" style="top:30%;left:35%"></div>
+        <span class="proj-hint">View Project</span>
+        <div class="proj-glow" style="top:20%;left:30%"></div>
         <svg viewBox="0 0 260 180" fill="none">
+          <!-- Funnel / pipeline visualization -->
           <path d="M40,30 L220,30 L180,80 L180,140 L80,140 L80,80 Z" stroke="var(--orange)" stroke-width=".8" opacity=".2"/>
+          <!-- Candidate dots flowing through funnel -->
           <circle cx="70" cy="35" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease infinite"/>
+          <circle cx="100" cy="32" r="3.5" fill="var(--orange)" opacity=".4" style="animation:pulse 2.5s ease .3s infinite"/>
           <circle cx="130" cy="34" r="4.5" fill="var(--orange)" opacity=".55" style="animation:pulse 2.5s ease .6s infinite"/>
+          <circle cx="160" cy="33" r="3" fill="var(--orange)" opacity=".35" style="animation:pulse 2.5s ease .9s infinite"/>
           <circle cx="190" cy="35" r="3.5" fill="var(--orange)" opacity=".4" style="animation:pulse 2.5s ease 1.2s infinite"/>
+          <!-- Mid section -->
           <circle cx="110" cy="75" r="4" fill="var(--orange)" opacity=".45" style="animation:pulse 3s ease .4s infinite"/>
           <circle cx="140" cy="72" r="3.5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease .8s infinite"/>
+          <!-- Output: star candidate -->
           <circle cx="130" cy="120" r="8" stroke="var(--orange)" stroke-width="1.2" opacity=".6"/>
           <circle cx="130" cy="120" r="3" fill="var(--orange)" opacity=".5"/>
+          <!-- AI scan lines -->
+          <line x1="60" y1="55" x2="200" y2="55" stroke="var(--orange)" stroke-width=".4" opacity=".1" stroke-dasharray="6,4"/>
+          <line x1="75" y1="95" x2="185" y2="95" stroke="var(--orange)" stroke-width=".4" opacity=".1" stroke-dasharray="6,4"/>
+          <!-- Check mark on output -->
           <path d="M123,120 L128,125 L138,115" stroke="var(--orange)" stroke-width="1.2" opacity=".7"/>
         </svg>
       </div>
       <div class="proj-body">
         <div class="proj-tag">Automation</div>
         <h3>AI Recruiting Pipeline</h3>
-        <p>Full-cycle intelligent sourcing powered by Claude AI. Transforms complex engineering role hiring into a streamlined, AI-augmented pipeline — from intake to signed offer.</p>
-        <div class="tags">
-          <span class="tag">Claude AI</span>
-          <span class="tag">Python</span>
-          <span class="tag">Pipeline</span>
-        </div>
+        <p>Intelligent candidate sourcing engine built on Claude AI. Cut time-to-fill 40% for principal architect roles averaging 120+ days open.</p>
+        <div class="tags"><span class="tag">Claude AI</span><span class="tag">Automation</span><span class="tag">NLP</span></div>
       </div>
     </div>
-    <div class="proj" onclick="openModal('modal2')">
+    <div class="proj r">
       <div class="proj-top">
-        <div class="proj-glow" style="top:50%;left:50%"></div>
+        <span class="proj-hint">View Project</span>
+        <div class="proj-glow" style="top:30%;right:25%"></div>
         <svg viewBox="0 0 260 180" fill="none">
-          <g style="animation:orbit 12s linear infinite;transform-origin:130px 90px">
-            <circle cx="200" cy="90" r="3" fill="var(--orange)" opacity=".5"/>
-          </g>
-          <circle cx="100" cy="50" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease infinite"/>
-          <circle cx="50" cy="90" r="3.5" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 1s infinite"/>
-          <circle cx="100" cy="130" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease 2s infinite"/>
-          <circle cx="150" cy="90" r="3.5" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 3s infinite"/>
-          <circle cx="130" cy="90" r="4" fill="var(--orange)" opacity=".6"/>
-          <line x1="100" y1="50" x2="130" y2="90" stroke-width=".6" opacity=".2"/>
-          <line x1="50" y1="90" x2="130" y2="90" stroke-width=".6" opacity=".2"/>
-          <line x1="130" y1="90" x2="100" y2="130" stroke-width=".6" opacity=".2"/>
-          <line x1="130" y1="90" x2="150" y2="90" stroke-width=".6" opacity=".2"/>
-        </svg>
-      </div>
-      <div class="proj-body">
-        <div class="proj-tag">Framework</div>
-        <h3>Talent Scoring Engine</h3>
-        <p>Behavioral and competency matrix for ranking passive candidates. Weighs 40+ factors including GitHub signal, communication patterns, and cultural alignment.</p>
-        <div class="tags">
-          <span class="tag">Scoring</span>
-          <span class="tag">ML</span>
-          <span class="tag">Talent</span>
-        </div>
-      </div>
-    </div>
-    <div class="proj" onclick="openModal('modal3')">
-      <div class="proj-top">
-        <div class="proj-glow" style="top:40%;left:60%"></div>
-        <svg viewBox="0 0 260 180" fill="none">
-          <path d="M50,50 L100,30 L150,50 L170,100 L150,150 L100,170 L50,150 L30,100 Z" stroke="var(--orange)" stroke-width=".8" opacity=".2"/>
-          <circle cx="60" cy="70" r="3" fill="var(--orange)" opacity=".4" style="animation:pulse 2.5s ease .2s infinite"/>
-          <circle cx="120" cy="45" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease .7s infinite"/>
-          <circle cx="170" cy="80" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2.5s ease 1.2s infinite"/>
-          <circle cx="160" cy="135" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease 1.7s infinite"/>
-          <circle cx="80" cy="155" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2.5s ease 2.2s infinite"/>
-          <circle cx="40" cy="120" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease 2.7s infinite"/>
-          <circle cx="100" cy="90" r="5" stroke="var(--orange)" stroke-width="1.2" opacity=".6" fill="none"/>
-        </svg>
-      </div>
-      <div class="proj-body">
-        <div class="proj-tag">Platform</div>
-        <h3>Ecosystem Orchestration</h3>
-        <p>Unified dashboard integrating LinkedIn, GitHub, internal ATS, compensation data, and market intelligence. Real-time visibility into pipeline health and conversion metrics.</p>
-        <div class="tags">
-          <span class="tag">Integration</span>
-          <span class="tag">Dashboard</span>
-          <span class="tag">Data</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- JOB DECODER -->
-    <div class="proj" onclick="openModal('modal4')">
-      <div class="proj-top">
-        <div class="proj-glow" style="top:30%;left:40%"></div>
-        <svg viewBox="0 0 260 180" fill="none">
-          <rect x="55" y="20" width="100" height="130" rx="4" stroke="var(--orange)" stroke-width=".9" opacity=".3"/>
-          <rect x="65" y="35" width="80" height="8" rx="2" fill="var(--orange)" opacity=".12"/>
-          <rect x="65" y="52" width="60" height="6" rx="2" fill="var(--orange)" opacity=".08"/>
-          <rect x="65" y="67" width="70" height="6" rx="2" fill="var(--orange)" opacity=".08"/>
-          <rect x="65" y="82" width="50" height="6" rx="2" fill="var(--orange)" opacity=".08"/>
-          <path d="M165,90 L193,90" stroke="var(--orange)" stroke-width="1.2" opacity=".5"/>
-          <path d="M188,85 L195,90 L188,95" stroke="var(--orange)" stroke-width="1.2" opacity=".5" fill="none"/>
-          <circle cx="218" cy="90" r="22" stroke="var(--orange)" stroke-width=".8" opacity=".3"/>
-          <circle cx="218" cy="90" r="10" stroke="var(--orange)" stroke-width=".7" opacity=".4"/>
-          <circle cx="218" cy="90" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease infinite"/>
-          <line x1="218" y1="65" x2="218" y2="58" stroke="var(--orange)" stroke-width=".5" opacity=".3"/>
-          <line x1="240" y1="72" x2="246" y2="66" stroke="var(--orange)" stroke-width=".5" opacity=".3"/>
-          <line x1="243" y1="90" x2="250" y2="90" stroke="var(--orange)" stroke-width=".5" opacity=".3"/>
-          <line x1="218" y1="115" x2="218" y2="122" stroke="var(--orange)" stroke-width=".5" opacity=".3"/>
-          <circle r="2" fill="var(--orange)" opacity=".7">
-            <animateMotion dur="2.2s" repeatCount="indefinite" path="M105,90 L165,90 L193,90"/>
+          <!-- Multi-agent network -->
+          <!-- Agent 1 -->
+          <rect x="20" y="60" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+          <circle cx="45" cy="78" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+          <text x="45" y="100" text-anchor="middle" fill="var(--orange)" font-size="6" opacity=".3" font-family="Space Grotesk">AGENT</text>
+          <!-- Agent 2 -->
+          <rect x="105" y="15" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+          <circle cx="130" cy="33" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+          <text x="130" y="55" text-anchor="middle" fill="var(--orange)" font-size="6" opacity=".3" font-family="Space Grotesk">AGENT</text>
+          <!-- Agent 3 -->
+          <rect x="105" y="105" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+          <circle cx="130" cy="123" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+          <text x="130" y="145" text-anchor="middle" fill="var(--orange)" font-size="6" opacity=".3" font-family="Space Grotesk">AGENT</text>
+          <!-- Central orchestrator -->
+          <circle cx="210" cy="85" r="22" stroke="var(--orange)" stroke-width="1.2" opacity=".5"/>
+          <circle cx="210" cy="85" r="8" fill="var(--orange)" opacity=".2"/>
+          <circle cx="210" cy="85" r="3" fill="var(--orange)" opacity=".5"/>
+          <!-- Connection lines with data flow dots -->
+          <line x1="70" y1="85" x2="105" y2="40" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
+          <line x1="70" y1="85" x2="105" y2="130" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
+          <line x1="155" y1="40" x2="188" y2="85" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
+          <line x1="155" y1="130" x2="188" y2="85" stroke="var(--orange)" stroke-width=".6" opacity=".2"/>
+          <!-- Animated data dots on paths -->
+          <circle r="2" fill="var(--orange)" opacity=".6">
+            <animateMotion dur="3s" repeatCount="indefinite" path="M70,85 L155,40 L188,85"/>
           </circle>
-          <circle r="1.5" fill="var(--orange)" opacity=".5">
-            <animateMotion dur="3s" repeatCount="indefinite" path="M105,90 L165,90 L193,90"/>
+          <circle r="2" fill="var(--orange)" opacity=".6">
+            <animateMotion dur="3.5s" repeatCount="indefinite" path="M70,85 L155,130 L188,85"/>
           </circle>
         </svg>
       </div>
       <div class="proj-body">
-        <div class="proj-tag">AI Agent</div>
-        <h3>Job Decoder Agent</h3>
-        <p>AI-powered job description analyzer built on Claude. Decodes any JD into must-have skills, hidden culture signals, comp range estimates, and targeted interview prep — in seconds.</p>
-        <div class="tags">
-          <span class="tag">Claude AI</span>
-          <span class="tag">Agents</span>
-          <span class="tag">JD Analysis</span>
-          <span class="tag">NLP</span>
-        </div>
+        <div class="proj-tag">AI Agents</div>
+        <h3>Multi-Agent Workflow Engine</h3>
+        <p>Claude Cowork agents that chain JD writing, comp analysis, and candidate outreach into one automated flow. One click, full pipeline.</p>
+        <div class="tags"><span class="tag">Cowork</span><span class="tag">Agents</span><span class="tag">MCP</span></div>
       </div>
     </div>
-
+    <div class="proj r">
+      <div class="proj-top">
+        <span class="proj-hint">View Project</span>
+        <div class="proj-glow" style="bottom:20%;left:40%"></div>
+        <svg viewBox="0 0 260 180" fill="none">
+          <!-- Globe / world map wireframe -->
+          <circle cx="130" cy="90" r="65" stroke="var(--orange)" stroke-width=".8" opacity=".2"/>
+          <ellipse cx="130" cy="90" rx="65" ry="25" stroke="var(--orange)" stroke-width=".5" opacity=".12"/>
+          <ellipse cx="130" cy="90" rx="25" ry="65" stroke="var(--orange)" stroke-width=".5" opacity=".12"/>
+          <ellipse cx="130" cy="90" rx="45" ry="65" stroke="var(--orange)" stroke-width=".3" opacity=".08"/>
+          <line x1="65" y1="90" x2="195" y2="90" stroke="var(--orange)" stroke-width=".3" opacity=".1"/>
+          <line x1="130" y1="25" x2="130" y2="155" stroke="var(--orange)" stroke-width=".3" opacity=".1"/>
+          <!-- Location pins / talent hotspots -->
+          <circle cx="105" cy="65" r="5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease infinite"/>
+          <circle cx="155" cy="75" r="4" fill="var(--orange)" opacity=".3" style="animation:pulse 3s ease .7s infinite"/>
+          <circle cx="120" cy="105" r="5.5" fill="var(--orange)" opacity=".45" style="animation:pulse 3s ease 1.4s infinite"/>
+          <circle cx="160" cy="100" r="3.5" fill="var(--orange)" opacity=".25" style="animation:pulse 3s ease 2.1s infinite"/>
+          <circle cx="90" cy="90" r="3" fill="var(--orange)" opacity=".2" style="animation:pulse 3s ease .4s infinite"/>
+          <!-- Connection arcs between hotspots -->
+          <path d="M105,65 Q130,50 155,75" stroke="var(--orange)" stroke-width=".5" opacity=".15"/>
+          <path d="M155,75 Q170,90 160,100" stroke="var(--orange)" stroke-width=".5" opacity=".15"/>
+          <path d="M120,105 Q100,95 90,90" stroke="var(--orange)" stroke-width=".5" opacity=".15"/>
+          <!-- Bar chart overlay bottom right -->
+          <rect x="195" y="130" width="8" height="25" fill="var(--orange)" opacity=".15"/>
+          <rect x="207" y="120" width="8" height="35" fill="var(--orange)" opacity=".2"/>
+          <rect x="219" y="108" width="8" height="47" fill="var(--orange)" opacity=".3"/>
+          <rect x="231" y="98" width="8" height="57" fill="var(--orange)" opacity=".4"/>
+        </svg>
+      </div>
+      <div class="proj-body">
+        <div class="proj-tag">Data & Insights</div>
+        <h3>Supply Chain Talent Map</h3>
+        <p>Interactive dashboard mapping global supply chain talent pools, skills gaps, and comp benchmarks. Data-driven hiring strategy.</p>
+        <div class="tags"><span class="tag">Analytics</span><span class="tag">Dashboard</span><span class="tag">Supply Chain</span></div>
+      </div>
+    </div>
   </div>
 </section>
 
 
-<!-- Skills Section -->
-<section id="skills" class="alt-bg">
-  <div class="label">Toolkit</div>
-  <div class="stitle">Skills</div>
-  <div class="cloud">
-    <span class="chip ft">Claude AI</span>
-    <span class="chip ft">AI Automation</span>
-    <span class="chip ft">Prompt Engineering</span>
-    <span class="chip">Technical Recruiting</span>
-    <span class="chip">Executive Search</span>
-    <span class="chip">Supply Chain Talent</span>
-    <span class="chip">Principal Architect Hiring</span>
-    <span class="chip ft">Claude Cowork</span>
-    <span class="chip">Candidate Experience</span>
-    <span class="chip">Employer Branding</span>
-    <span class="chip ft">MCP Servers</span>
-    <span class="chip">Sourcing Strategy</span>
-    <span class="chip">Event Planning Recruitment</span>
-    <span class="chip ft">AI Agents</span>
-    <span class="chip">Diversity Hiring</span>
-    <span class="chip">Comp Analysis</span>
-    <span class="chip ft">Workflow Automation</span>
-    <span class="chip">Stakeholder Management</span>
-    <span class="chip">Capability Maturity Model</span>
-    <span class="chip">Boolean & Deep Web Sourcing</span>
-    <span class="chip">GitHub Talent Mining</span>
+<!-- SKILLS -->
+<section id="skills" class="alt-bg" style="position:relative">
+  <span class="section-num">04</span>
+  <div class="label r">Toolkit</div>
+  <div class="stitle r">Skills</div>
+  <div class="skills-tabs r">
+    <button class="skill-tab active" data-filter="all">All Skills</button>
+    <button class="skill-tab" data-filter="ai">AI &amp; Automation</button>
+    <button class="skill-tab" data-filter="recruiting">Recruiting</button>
+    <button class="skill-tab" data-filter="strategy">Strategy</button>
+  </div>
+  <div class="cloud r">
+    <span class="chip ft" data-cat="ai">Claude AI</span>
+    <span class="chip ft" data-cat="ai">AI Automation</span>
+    <span class="chip ft" data-cat="ai">Prompt Engineering</span>
+    <span class="chip ft" data-cat="ai">Claude Cowork</span>
+    <span class="chip ft" data-cat="ai">MCP Servers</span>
+    <span class="chip ft" data-cat="ai">AI Agents</span>
+    <span class="chip ft" data-cat="ai">Workflow Automation</span>
+    <span class="chip" data-cat="recruiting">Technical Recruiting</span>
+    <span class="chip" data-cat="recruiting">Executive Search</span>
+    <span class="chip" data-cat="recruiting">Supply Chain Talent</span>
+    <span class="chip" data-cat="recruiting">Principal Architect Hiring</span>
+    <span class="chip" data-cat="recruiting">Candidate Experience</span>
+    <span class="chip" data-cat="recruiting">Employer Branding</span>
+    <span class="chip" data-cat="recruiting">Event Planning Recruitment</span>
+    <span class="chip" data-cat="recruiting">Diversity Hiring</span>
+    <span class="chip" data-cat="strategy">Sourcing Strategy</span>
+    <span class="chip" data-cat="strategy">Comp Analysis</span>
+    <span class="chip" data-cat="strategy">Stakeholder Management</span>
+    <span class="chip" data-cat="strategy">Capability Maturity Model</span>
+    <span class="chip" data-cat="strategy">Boolean &amp; Deep Web Sourcing</span>
+    <span class="chip" data-cat="strategy">GitHub Talent Mining</span>
   </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="contact">
-  <div class="label">Let's Go</div>
-  <div class="stitle">Start the Conversation</div>
-  <p class="contact-p">Looking for world-class talent? Curious how AI can transform your recruiting ops? Let's build.</p>
-  <div class="clinks">
-    <a href="mailto:troyd12@gmail.com" class="clink">troyd12@gmail.com</a>
-    <a href="https://linkedin.com/in/trdixon" class="clink" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a href="https://github.com/troyd12" class="clink" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="https://instagram.com/tdmovement" class="clink" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <a href="https://tiktok.com/@tdmovement" class="clink" target="_blank" rel="noopener noreferrer">TikTok</a>
-    <a href="Troy_Dixon_Resume.docx" class="clink" download>Download Resume</a>
+<!-- CONTACT -->
+<section id="contact" class="contact" style="position:relative">
+  <span class="section-num">05</span>
+  <div class="label r">Let's Go</div>
+  <div class="contact-layout">
+    <div class="contact-intro r">
+      <h2>Start the<br><span style="color:var(--orange)">Conversation</span></h2>
+      <p>Looking for world-class talent? Curious how AI can transform your recruiting ops? I build bridges between elite humans and intelligent machines.</p>
+      <div class="avail-badge r">
+        <span class="avail-dot"></span>
+        Available &mdash; Open to new conversations
+      </div>
+      <div style="margin-top:2rem">
+        <a href="Troy_Dixon_Resume.pdf" class="btn btn-fill" download style="display:inline-flex;align-items:center;gap:.6rem">
+          Download Resume <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18l-7 7h4v6h6v-6h4l-7-7z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="r">
+      <div class="contact-cards">
+        <a href="mailto:troyd12@gmail.com" class="cc" data-copy="troyd12@gmail.com">
+          <div class="cc-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+          <div class="cc-label">Email</div>
+          <div class="cc-value">troyd12@gmail.com</div>
+          <div class="cc-arrow">&#8599;</div>
+        </a>
+        <a href="tel:9095101279" class="cc">
+          <div class="cc-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+          <div class="cc-label">Phone</div>
+          <div class="cc-value">909.510.1279</div>
+          <div class="cc-arrow">&#8599;</div>
+        </a>
+        <a href="https://www.linkedin.com/in/trdixon" class="cc" target="_blank">
+          <div class="cc-icon"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+          <div class="cc-label">LinkedIn</div>
+          <div class="cc-value">linkedin.com/in/trdixon</div>
+          <div class="cc-arrow">&#8599;</div>
+        </a>
+        <a href="https://github.com/troyd12" class="cc" target="_blank">
+          <div class="cc-icon"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div>
+          <div class="cc-label">GitHub</div>
+          <div class="cc-value">github.com/troyd12</div>
+          <div class="cc-arrow">&#8599;</div>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
-<footer>&copy; 2026 <b>TD Movement</b> &mdash; Relentless Advancement. Relentless Breakthroughs. Relentless Movement.</footer>
+<footer>
+  <div class="footer-left">
+    <div class="footer-logo">TD Movement</div>
+    <div class="footer-tagline">People &bull; Process &bull; Technology</div>
+  </div>
+  <div class="footer-right">
+    <div class="footer-links">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#projects">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 <b>Troy Dixon</b> &mdash; Built with precision.</div>
+  </div>
+</footer>
 
 <!-- ═══ PROJECT MODALS ═══ -->
 <div class="modal-overlay" id="modal1">
   <div class="modal">
-    <button class="modal-close" onclick="closeModal('modal1')" type="button">&times;</button>
+    <button class="modal-close" onclick="closeModal('modal1')">&times;</button>
     <div class="modal-hero">
       <div class="proj-glow" style="top:30%;left:35%"></div>
       <svg viewBox="0 0 260 180" fill="none">
@@ -1216,656 +1634,730 @@ nav.show{opacity:1;transform:translateY(0)}
     <div class="modal-body">
       <div class="modal-tag">Automation</div>
       <h2>AI Recruiting Pipeline</h2>
-      <p>A full-cycle intelligent sourcing engine powered by Claude AI. The system ingests job requirements, generates targeted Boolean strings, identifies passive candidates across LinkedIn, GitHub, and niche talent pools, then ranks them using a custom competency scoring model.</p>
-      <p>Transforms manual sourcing into a streamlined, AI-augmented pipeline — from intake to signed offer — dramatically compressing time-to-fill while improving candidate quality.</p>
+      <p>A full-cycle intelligent sourcing engine powered by Claude AI that transforms how principal architect and senior engineering roles are filled. The system ingests job requirements, generates targeted Boolean strings, identifies passive candidates across LinkedIn, GitHub, and niche talent pools, then ranks them using a custom competency scoring model.</p>
+      <p>What used to take 120+ days of manual effort now operates as a streamlined, AI-augmented pipeline — from intake to signed offer — cutting time-to-fill by 40% while maintaining a 92% offer acceptance rate.</p>
       <div class="modal-stats">
         <div><div class="modal-stat-num">40%</div><div class="modal-stat-lbl">Faster Fill Rate</div></div>
+        <div><div class="modal-stat-num">92%</div><div class="modal-stat-lbl">Offer Acceptance</div></div>
         <div><div class="modal-stat-num">4:1</div><div class="modal-stat-lbl">Submit-to-Hire</div></div>
-        <div><div class="modal-stat-num">1-Click</div><div class="modal-stat-lbl">Full Pipeline</div></div>
       </div>
-      <p>Built with Claude AI, MCP servers, and custom Python orchestration. Connects to live sourcing channels and ranks candidates automatically.</p>
-      <div class="tags">
-        <span class="tag">Claude AI</span>
-        <span class="tag">Python</span>
-        <span class="tag">MCP</span>
-        <span class="tag">LinkedIn API</span>
-        <span class="tag">Boolean Search</span>
-        <span class="tag">Scoring</span>
-      </div>
+      <div class="tags"><span class="tag">Claude AI</span><span class="tag">Automation</span><span class="tag">NLP</span><span class="tag">Pipeline Design</span><span class="tag">Competency Scoring</span></div>
+      <button class="modal-btn" onclick="closeModal('modal1')">Close</button>
     </div>
   </div>
 </div>
 
 <div class="modal-overlay" id="modal2">
   <div class="modal">
-    <button class="modal-close" onclick="closeModal('modal2')" type="button">&times;</button>
+    <button class="modal-close" onclick="closeModal('modal2')">&times;</button>
     <div class="modal-hero">
-      <div class="proj-glow" style="top:50%;left:50%"></div>
+      <div class="proj-glow" style="top:30%;right:30%"></div>
       <svg viewBox="0 0 260 180" fill="none">
-        <g style="animation:orbit 12s linear infinite;transform-origin:130px 90px">
-          <circle cx="200" cy="90" r="3" fill="var(--orange)" opacity=".5"/>
-        </g>
-        <circle cx="100" cy="50" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease infinite"/>
-        <circle cx="50" cy="90" r="3.5" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 1s infinite"/>
-        <circle cx="100" cy="130" r="4" fill="var(--orange)" opacity=".5" style="animation:pulse 2s ease 2s infinite"/>
-        <circle cx="150" cy="90" r="3.5" fill="var(--orange)" opacity=".45" style="animation:pulse 2s ease 3s infinite"/>
-        <circle cx="130" cy="90" r="4" fill="var(--orange)" opacity=".6"/>
-        <line x1="100" y1="50" x2="130" y2="90" stroke-width=".6" opacity=".2"/>
-        <line x1="50" y1="90" x2="130" y2="90" stroke-width=".6" opacity=".2"/>
-        <line x1="130" y1="90" x2="100" y2="130" stroke-width=".6" opacity=".2"/>
-        <line x1="130" y1="90" x2="150" y2="90" stroke-width=".6" opacity=".2"/>
+        <rect x="20" y="60" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+        <circle cx="45" cy="78" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+        <text x="45" y="100" text-anchor="middle" fill="var(--orange)" font-size="6" opacity=".3" font-family="Space Grotesk">AGENT</text>
+        <rect x="105" y="15" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+        <circle cx="130" cy="33" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+        <rect x="105" y="105" width="50" height="50" rx="6" stroke="var(--orange)" stroke-width="1" opacity=".4"/>
+        <circle cx="130" cy="123" r="6" stroke="var(--orange)" stroke-width=".8" opacity=".5"/>
+        <circle cx="210" cy="85" r="22" stroke="var(--orange)" stroke-width="1.2" opacity=".5"/>
+        <circle cx="210" cy="85" r="8" fill="var(--orange)" opacity=".2"/>
+        <circle cx="210" cy="85" r="3" fill="var(--orange)" opacity=".5"/>
+        <circle r="2" fill="var(--orange)" opacity=".6"><animateMotion dur="3s" repeatCount="indefinite" path="M70,85 L155,40 L188,85"/></circle>
+        <circle r="2" fill="var(--orange)" opacity=".6"><animateMotion dur="3.5s" repeatCount="indefinite" path="M70,85 L155,130 L188,85"/></circle>
       </svg>
     </div>
     <div class="modal-body">
-      <div class="modal-tag">Framework</div>
-      <h2>Talent Scoring Engine</h2>
-      <p>A behavioral and competency-based ranking system that evaluates passive candidates across 40+ dimensions. Integrates GitHub signal analysis, communication patterns, résumé semantic matching, and cultural fit indicators to surface the highest-probability hires.</p>
-      <p>Reduces manual review overhead by 60% while improving quality of pipeline. Candidates ranked by our system show 18% higher bar-raiser approval rates and 25% faster ramp time to productivity.</p>
+      <div class="modal-tag">AI Agents</div>
+      <h2>Multi-Agent Workflow Engine</h2>
+      <p>A Claude Cowork-powered orchestration system where specialized AI agents handle discrete recruiting tasks — JD generation, compensation analysis, market intelligence, and candidate outreach — all chained into a single automated workflow.</p>
+      <p>Each agent is purpose-built with MCP server connections to live data sources. One click triggers the full pipeline: from drafting a role profile to surfacing pre-qualified candidates with personalized outreach sequences. This is recruiting as systems engineering.</p>
       <div class="modal-stats">
-        <div><div class="modal-stat-num">60%</div><div class="modal-stat-lbl">Less Manual Work</div></div>
-        <div><div class="modal-stat-num">40+</div><div class="modal-stat-lbl">Ranking Factors</div></div>
-        <div><div class="modal-stat-num">18%</div><div class="modal-stat-lbl">Higher Quality</div></div>
+        <div><div class="modal-stat-num">3</div><div class="modal-stat-lbl">AI Agents</div></div>
+        <div><div class="modal-stat-num">~40%</div><div class="modal-stat-lbl">Less Manual Work</div></div>
+        <div><div class="modal-stat-num">1-Click</div><div class="modal-stat-lbl">Full Pipeline</div></div>
       </div>
-      <p>Built to learn continuously from feedback loops and offer outcomes. Gets smarter with every hire cycle.</p>
-      <div class="tags">
-        <span class="tag">ML</span>
-        <span class="tag">Scoring</span>
-        <span class="tag">GitHub API</span>
-        <span class="tag">NLP</span>
-        <span class="tag">Talent Science</span>
-        <span class="tag">Claude</span>
-      </div>
+      <div class="tags"><span class="tag">Cowork</span><span class="tag">Agents</span><span class="tag">MCP</span><span class="tag">Orchestration</span><span class="tag">Claude AI</span></div>
+      <button class="modal-btn" onclick="closeModal('modal2')">Close</button>
     </div>
   </div>
 </div>
 
 <div class="modal-overlay" id="modal3">
   <div class="modal">
-    <button class="modal-close" onclick="closeModal('modal3')" type="button">&times;</button>
+    <button class="modal-close" onclick="closeModal('modal3')">&times;</button>
     <div class="modal-hero">
-      <div class="proj-glow" style="top:40%;left:60%"></div>
+      <div class="proj-glow" style="bottom:25%;left:40%"></div>
       <svg viewBox="0 0 260 180" fill="none">
-        <path d="M50,50 L100,30 L150,50 L170,100 L150,150 L100,170 L50,150 L30,100 Z" stroke="var(--orange)" stroke-width=".8" opacity=".2"/>
-        <circle cx="60" cy="70" r="3" fill="var(--orange)" opacity=".4" style="animation:pulse 2.5s ease .2s infinite"/>
-        <circle cx="120" cy="45" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease .7s infinite"/>
-        <circle cx="170" cy="80" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2.5s ease 1.2s infinite"/>
-        <circle cx="160" cy="135" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease 1.7s infinite"/>
-        <circle cx="80" cy="155" r="3" fill="var(--orange)" opacity=".45" style="animation:pulse 2.5s ease 2.2s infinite"/>
-        <circle cx="40" cy="120" r="3.5" fill="var(--orange)" opacity=".5" style="animation:pulse 2.5s ease 2.7s infinite"/>
-        <circle cx="100" cy="90" r="5" stroke="var(--orange)" stroke-width="1.2" opacity=".6" fill="none"/>
+        <circle cx="130" cy="90" r="65" stroke="var(--orange)" stroke-width=".8" opacity=".2"/>
+        <ellipse cx="130" cy="90" rx="65" ry="25" stroke="var(--orange)" stroke-width=".5" opacity=".12"/>
+        <ellipse cx="130" cy="90" rx="25" ry="65" stroke="var(--orange)" stroke-width=".5" opacity=".12"/>
+        <circle cx="105" cy="65" r="5" fill="var(--orange)" opacity=".4" style="animation:pulse 3s ease infinite"/>
+        <circle cx="155" cy="75" r="4" fill="var(--orange)" opacity=".3" style="animation:pulse 3s ease .7s infinite"/>
+        <circle cx="120" cy="105" r="5.5" fill="var(--orange)" opacity=".45" style="animation:pulse 3s ease 1.4s infinite"/>
+        <rect x="195" y="130" width="8" height="25" fill="var(--orange)" opacity=".15"/>
+        <rect x="207" y="120" width="8" height="35" fill="var(--orange)" opacity=".2"/>
+        <rect x="219" y="108" width="8" height="47" fill="var(--orange)" opacity=".3"/>
+        <rect x="231" y="98" width="8" height="57" fill="var(--orange)" opacity=".4"/>
       </svg>
     </div>
     <div class="modal-body">
-      <div class="modal-tag">Platform</div>
-      <h2>Ecosystem Orchestration</h2>
-      <p>A unified command center for talent operations. Integrates LinkedIn Recruiter, GitHub mining, internal ATS, compensation benchmarking, and market intelligence into a single dashboard with real-time visibility into pipeline KPIs and conversion funnels.</p>
-      <p>Single source of truth for hiring managers, recruiters, and talent ops. Real-time alerts on pipeline health, bottleneck identification, and predictive fill-rate analysis. Reduces hiring cycle time by 30% through better coordination and data visibility.</p>
+      <div class="modal-tag">Data & Insights</div>
+      <h2>Supply Chain Talent Map</h2>
+      <p>An interactive intelligence dashboard that maps global supply chain talent pools across geographies, skill clusters, and compensation bands. Built for hiring managers who need to make data-driven decisions on where to source, what to pay, and how to compete.</p>
+      <p>Integrates market data from multiple sources to surface passive candidates in low-supply, high-demand segments — the exact profiles competitors can't reach. This is the tool that turned reactive hiring into proactive talent strategy for Nike's GPS division.</p>
       <div class="modal-stats">
-        <div><div class="modal-stat-num">30%</div><div class="modal-stat-lbl">Faster Cycles</div></div>
-        <div><div class="modal-stat-num">6</div><div class="modal-stat-lbl">Integrations</div></div>
-        <div><div class="modal-stat-num">1</div><div class="modal-stat-lbl">Source of Truth</div></div>
+        <div><div class="modal-stat-num">10+</div><div class="modal-stat-lbl">HMs Supported</div></div>
+        <div><div class="modal-stat-num">Global</div><div class="modal-stat-lbl">Talent Coverage</div></div>
+        <div><div class="modal-stat-num">Live</div><div class="modal-stat-lbl">Market Data</div></div>
       </div>
-      <p>Built on Claude API, Zapier, custom webhooks, and React dashboard. Handles 500+ concurrent users, 50K+ candidate records, real-time sync.</p>
-      <div class="tags">
-        <span class="tag">Integration</span>
-        <span class="tag">Dashboard</span>
-        <span class="tag">API</span>
-        <span class="tag">Real-time Sync</span>
-        <span class="tag">Analytics</span>
-        <span class="tag">Data Ops</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- JOB DECODER MODAL -->
-<div class="modal-overlay" id="modal4">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal('modal4')" type="button">&times;</button>
-    <div class="modal-hero">
-      <div class="proj-glow" style="top:25%;left:40%"></div>
-      <svg viewBox="0 0 260 180" fill="none">
-        <rect x="55" y="15" width="100" height="130" rx="4" stroke="var(--orange)" stroke-width=".9" opacity=".35"/>
-        <rect x="65" y="30" width="80" height="8" rx="2" fill="var(--orange)" opacity=".18"/>
-        <rect x="65" y="47" width="60" height="6" rx="2" fill="var(--orange)" opacity=".12"/>
-        <rect x="65" y="62" width="70" height="6" rx="2" fill="var(--orange)" opacity=".12"/>
-        <rect x="65" y="77" width="50" height="6" rx="2" fill="var(--orange)" opacity=".12"/>
-        <rect x="65" y="92" width="65" height="6" rx="2" fill="var(--orange)" opacity=".08"/>
-        <path d="M165,85 L193,85" stroke="var(--orange)" stroke-width="1.4" opacity=".6"/>
-        <path d="M188,80 L195,85 L188,90" stroke="var(--orange)" stroke-width="1.4" opacity=".6" fill="none"/>
-        <circle cx="218" cy="85" r="25" stroke="var(--orange)" stroke-width="1" opacity=".35"/>
-        <circle cx="218" cy="85" r="12" stroke="var(--orange)" stroke-width=".8" opacity=".45"/>
-        <circle cx="218" cy="85" r="5" fill="var(--orange)" opacity=".6" style="animation:pulse 2s ease infinite"/>
-        <line x1="218" y1="57" x2="218" y2="48" stroke="var(--orange)" stroke-width=".6" opacity=".35"/>
-        <line x1="242" y1="68" x2="249" y2="61" stroke="var(--orange)" stroke-width=".6" opacity=".35"/>
-        <line x1="246" y1="85" x2="255" y2="85" stroke="var(--orange)" stroke-width=".6" opacity=".35"/>
-        <line x1="218" y1="113" x2="218" y2="122" stroke="var(--orange)" stroke-width=".6" opacity=".35"/>
-        <circle r="2.5" fill="var(--orange)" opacity=".8">
-          <animateMotion dur="2s" repeatCount="indefinite" path="M105,85 L165,85 L193,85"/>
-        </circle>
-      </svg>
-    </div>
-    <div class="modal-body">
-      <div class="modal-tag">AI Agent</div>
-      <h2>Job Decoder Agent</h2>
-      <p>An intelligent job description analysis agent built on Claude AI. Paste any job description and the decoder instantly breaks it down into its core components — required vs. preferred skills, implied culture signals, likely compensation range, team structure hints, and red flags candidates often miss.</p>
-      <p>Built to give job seekers and recruiters an immediate strategic edge. Candidates get targeted interview prep. Recruiters get competitive intelligence on how peers are positioning roles. One input, full-spectrum output in under 10 seconds.</p>
-      <div class="modal-stats">
-        <div><div class="modal-stat-num">&lt;10s</div><div class="modal-stat-lbl">Decode Time</div></div>
-        <div><div class="modal-stat-num">5+</div><div class="modal-stat-lbl">Output Dimensions</div></div>
-        <div><div class="modal-stat-num">Claude</div><div class="modal-stat-lbl">AI Powered</div></div>
-      </div>
-      <div class="tags">
-        <span class="tag">Claude AI</span>
-        <span class="tag">Agents</span>
-        <span class="tag">JD Analysis</span>
-        <span class="tag">NLP</span>
-        <span class="tag">Recruiting Intel</span>
-      </div>
-      <a href="https://github.com/troyd12" target="_blank" rel="noopener noreferrer" class="modal-btn">View on GitHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- Chatbot Widget -->
-<button class="chat-widget-button" id="chatWidgetBtn" type="button" aria-label="Open chat assistant" aria-expanded="false">
-  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
-  </svg>
-</button>
-
-<div class="chat-widget-panel" id="chatWidgetPanel" role="dialog" aria-label="Chat with TD Assistant">
-  <div class="chat-header">
-    <div class="chat-header-left">
-      <div class="chat-avatar">TD</div>
-      <div class="chat-header-info">
-        <div class="chat-header-name">TD Assistant</div>
-        <div class="chat-header-status">
-          <span class="chat-status-dot"></span>
-          Online
-        </div>
-      </div>
-    </div>
-    <button class="chat-close-btn" id="chatCloseBtn" type="button" aria-label="Close chat">&times;</button>
-  </div>
-
-  <div class="chat-messages" id="chatMessages">
-    <div class="chat-msg bot">
-      <div class="chat-bubble">Hey! I'm the TD Assistant. Ask me about Troy's work, AI projects, or how to connect.</div>
-      <div class="chat-msg-time">Just now</div>
-    </div>
-    <div class="typing-indicator" id="typingIndicator">
-      <div class="typing-dot"></div>
-      <div class="typing-dot"></div>
-      <div class="typing-dot"></div>
-    </div>
-  </div>
-
-  <div class="chat-quick-replies" id="quickReplies">
-    <button class="quick-reply-btn" type="button" data-reply="Who is Troy?">Who is Troy?</button>
-    <button class="quick-reply-btn" type="button" data-reply="What AI projects has he built?">AI Projects</button>
-    <button class="quick-reply-btn" type="button" data-reply="How do I contact Troy?">Contact</button>
-    <button class="quick-reply-btn" type="button" data-reply="What is the Job Decoder?">Job Decoder</button>
-  </div>
-
-  <div class="chat-input-area">
-    <input type="text" placeholder="Type a message..." id="chatInput" autocomplete="off" maxlength="200">
-    <button type="button" id="chatSendBtn" aria-label="Send message">
-      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
-    </button>
-  </div>
-</div>
-
-<!-- Cookie Consent Banner — GDPR/CCPA Compliant -->
-<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-  <div class="cookie-inner">
-    <div class="cookie-icon">&#127850;</div>
-    <div class="cookie-content">
-      <div class="cookie-title">Cookie Preferences</div>
-      <p class="cookie-text">
-        This website uses cookies and similar tracking technologies to operate, analyze traffic, and enhance your experience. You have the right to choose which categories of cookies you allow. Strictly necessary cookies are always active and cannot be disabled as they are required for the site to function.
-      </p>
-      <div class="cookie-cats">
-        <span class="cookie-cat required">&#10003; Strictly Necessary</span>
-        <span class="cookie-cat" id="catAnalytics">&#9675; Analytics</span>
-        <span class="cookie-cat" id="catFunctional">&#9675; Functional</span>
-      </div>
-      <p class="cookie-legal">
-        By clicking <strong>"Accept All"</strong> you consent to all cookie categories. By clicking <strong>"Decline"</strong> only strictly necessary cookies will be used. You may withdraw or change your consent at any time. This site does not sell your personal data. For full details, see our
-        <a href="#" onclick="return false;" title="Cookie Policy">Cookie Policy</a> and
-        <a href="#" onclick="return false;" title="Privacy Policy">Privacy Policy</a>.
-        &mdash; California residents: You have rights under the CCPA.
-      </p>
-    </div>
-    <div class="cookie-actions">
-      <button class="cookie-accept" id="cookieAccept" type="button">Accept All</button>
-      <button class="cookie-decline" id="cookieDecline" type="button">Necessary Only</button>
-      <button class="cookie-manage" id="cookieManage" type="button">Manage Preferences</button>
+      <div class="tags"><span class="tag">Analytics</span><span class="tag">Dashboard</span><span class="tag">Supply Chain</span><span class="tag">Looker Studio</span><span class="tag">Market Intel</span></div>
+      <button class="modal-btn" onclick="closeModal('modal3')">Close</button>
     </div>
   </div>
 </div>
 
 <script>
-// Theme Toggle
-const themeToggle = document.getElementById('themeToggle');
-const htmlElement = document.documentElement;
-
-themeToggle.addEventListener('click', () => {
-  const currentTheme = htmlElement.getAttribute('data-theme');
-  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  htmlElement.setAttribute('data-theme', newTheme);
-  localStorage.setItem('theme', newTheme);
-});
-
-const savedTheme = localStorage.getItem('theme') || 'dark';
-htmlElement.setAttribute('data-theme', savedTheme);
-
-// Mobile Menu Toggle
-const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-const navLinks = document.querySelector('.nav-links');
-
-mobileMenuBtn.addEventListener('click', () => {
-  mobileMenuBtn.classList.toggle('active');
-  navLinks.classList.toggle('active');
-});
-
-navLinks.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenuBtn.classList.remove('active');
-    navLinks.classList.remove('active');
-  });
-});
-
-// Modal Functions
-function openModal(modalId) {
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  }
-}
-
-function closeModal(modalId) {
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-  }
-}
-
-document.querySelectorAll('.modal-overlay').forEach(overlay => {
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) {
-      const modalId = overlay.id;
-      closeModal(modalId);
-    }
-  });
-});
-
-// ── CHATBOT ──
+// ═══ TD MOVEMENT — PER-LETTER FLY-IN INTRO ═══
 (function(){
-  const chatBtn       = document.getElementById('chatWidgetBtn');
-  const chatCloseBtn  = document.getElementById('chatCloseBtn');
-  const chatPanel     = document.getElementById('chatWidgetPanel');
-  const messagesEl    = document.getElementById('chatMessages');
-  const typingEl      = document.getElementById('typingIndicator');
-  const chatInput     = document.getElementById('chatInput');
-  const chatSendBtn   = document.getElementById('chatSendBtn');
-  const quickReplies  = document.getElementById('quickReplies');
+  try{
+  var intro    = document.getElementById('puzzleIntro');
+  var tdEl     = document.getElementById('introTD');
+  var movEl    = document.getElementById('introMovement');
+  var wrapEl   = document.getElementById('introTextWrap');
+  var tagline  = document.getElementById('puzzleTag');
+  var introGlow = document.getElementById('introGlow');
+  // Bail safely if critical intro elements missing
+  if(!intro||!tdEl||!movEl||!wrapEl||!tagline){
+    console.warn('TD Movement: intro elements missing — skipping intro');
+    if(intro) intro.style.display='none';
+    var n=document.querySelector('nav');if(n)n.classList.add('entered');
+    var h=document.querySelector('.hero');if(h)h.classList.add('entered');
+    var hv=document.querySelector('.hero-visual');if(hv)hv.classList.add('img-live');
+    return;
+  }
 
-  // Knowledge base — no employer-specific details
-  const KB = [
-    {
-      keys: ['who','troy','about','recruiter'],
-      reply: "Troy is a Lead Technical Recruiter who specializes in AI-powered talent acquisition. He builds intelligent recruiting workflows using Claude AI, MCP servers, and automation to find and close top engineering and leadership talent."
-    },
-    {
-      keys: ['project','build','ai','pipeline','work'],
-      reply: "Troy has built four AI projects: (1) AI Recruiting Pipeline — automated sourcing & ranking, (2) Talent Scoring Engine — 40+ dimension candidate evaluation, (3) Ecosystem Orchestration — unified talent ops dashboard, and (4) Job Decoder — instant JD analysis agent. Check the Work section for details!"
-    },
-    {
-      keys: ['contact','reach','email','connect','talk','hire','linkedin'],
-      reply: "You can connect with Troy here:\n📧 troyd12@gmail.com\n💼 linkedin.com/in/trdixon\n💻 github.com/troyd12\n📸 instagram.com/tdmovement\n🎵 tiktok.com/@tdmovement\n\nOr hit the Contact section at the bottom of the page."
-    },
-    {
-      keys: ['job decoder','decoder','jd','description'],
-      reply: "The Job Decoder is an AI agent built on Claude. Paste any job description and it instantly breaks it down — must-have skills, culture signals, comp range estimates, red flags, and targeted interview prep. View it in the Work section."
-    },
-    {
-      keys: ['skill','technology','tech','tool','stack','claude','mcp'],
-      reply: "Troy works with Claude AI, MCP Servers, AI Agents, Prompt Engineering, Workflow Automation, Boolean & Deep Web Sourcing, and GitHub Talent Mining. Check the Skills section for the full toolkit."
-    },
-    {
-      keys: ['philosophy','people','process','technology'],
-      reply: "Troy's framework is simple: People. Process. Technology. Find the signal in the noise, build repeatable systems, and use AI to make recruiting faster and fundamentally better."
-    },
-    {
-      keys: ['resume','cv','download'],
-      reply: "You can download Troy's resume from the Contact section at the bottom of the page — just look for the Download Resume button."
-    },
-    {
-      keys: ['github','code','repo'],
-      reply: "You can find Troy's code and AI project repos at github.com/troyd12 — that's where the recruiting automation tools and agent workflows live."
-    }
+  // Starting positions for each letter — from all sides of the screen
+  var tdPositions = [
+    {x:'-130vw', y:'-70vh', r: -25}, // T — top-left
+    {x:' 130vw', y:' 70vh', r:  20}, // D — bottom-right
+  ];
+  var movPositions = [
+    {x:'-140vw', y:'  10vh', r: -15}, // M — far left
+    {x:'   5vw', y:'-130vh', r:  30}, // O — top center
+    {x:' 140vw', y:' -50vh', r: -20}, // V — top-right
+    {x:' -90vw', y:' 110vh', r:  25}, // E — bottom-left
+    {x:' 130vw', y:'  -5vh', r: -10}, // M — far right
+    {x:'  50vw', y:' 130vh', r:  18}, // E — bottom
+    {x:' -60vw', y:'-120vh', r: -30}, // N — top-left
+    {x:' 100vw', y:' -90vh', r:  22}, // T — top-right
   ];
 
-  function getTime(){
-    return new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+  // Build letter spans for a word element
+  function buildLetters(el, positions) {
+    var text = el.textContent.trim();
+    el.textContent = '';
+    text.split('').forEach(function(ch, i) {
+      var span = document.createElement('span');
+      span.textContent = ch;
+      span.className = 'intro-letter';
+      var p = positions[i] || {x:'0vw', y:'-120vh', r:0};
+      span.style.transform = 'translate('+p.x+','+p.y+') scale(0.2) rotate('+p.r+'deg)';
+      span.style.opacity   = '0';
+      el.appendChild(span);
+    });
   }
 
-  function addMessage(text, role){
-    // Move typing indicator to end if it exists
-    const typing = document.getElementById('typingIndicator');
-    if(typing) messagesEl.appendChild(typing);
-
-    const wrap = document.createElement('div');
-    wrap.className = 'chat-msg ' + role;
-
-    const bubble = document.createElement('div');
-    bubble.className = 'chat-bubble';
-    // Support newlines
-    bubble.innerHTML = text.replace(/\n/g,'<br>');
-
-    const time = document.createElement('div');
-    time.className = 'chat-msg-time';
-    time.textContent = getTime();
-
-    wrap.appendChild(bubble);
-    wrap.appendChild(time);
-    messagesEl.insertBefore(wrap, typing || null);
-    messagesEl.scrollTop = messagesEl.scrollHeight;
+  // Trigger fly-in on each letter with stagger
+  function flyIn(el, baseDelay, stagger) {
+    var letters = el.querySelectorAll('.intro-letter');
+    letters.forEach(function(span, i) {
+      setTimeout(function() {
+        span.style.transition =
+          'transform 4.2s cubic-bezier(.16,1,.3,1), opacity 1.2s ease';
+        span.style.transform  = 'translate(0,0) scale(1) rotate(0deg)';
+        span.style.opacity    = '1';
+      }, baseDelay + i * 220);
+    });
   }
 
-  function getBotReply(text){
-    const lower = text.toLowerCase();
-    for(const item of KB){
-      if(item.keys.some(k => lower.includes(k))){
-        return item.reply;
+  // Build both words
+  buildLetters(tdEl,  tdPositions);
+  buildLetters(movEl, movPositions);
+
+  // Step 1 — letters fly in + image fades
+  setTimeout(function(){
+    flyIn(tdEl,  0,   200);   // TD  stagger 200ms each
+    flyIn(movEl, 400, 140);   // MOVEMENT stagger 140ms each, 400ms after TD starts
+    if(introGlow){ introGlow.classList.add('show'); }
+  }, 300);
+
+  // Step 2 — tagline appears after slow letters land
+  setTimeout(function(){
+    tagline.classList.add('show');
+  }, 6000);
+
+  // Step 3 — dissolve intro, reveal text content
+  setTimeout(function(){
+    wrapEl.classList.add('fadeout');
+    tagline.classList.add('fadeout');
+    intro.classList.add('dissolving');
+    var navEl=document.querySelector('nav');if(navEl)navEl.classList.add('entered');
+    var heroEl=document.querySelector('.hero');if(heroEl)heroEl.classList.add('entered');
+
+    // ── HERO IMAGE REVEAL ──────────────────────────────────────────
+    // Fires 4.2s AFTER hero text starts appearing.
+    // By this point: eyebrow (0.45s) → pills (0.6s) → h1 (0.78s)
+    // → tagline (1.0s) → body text (1.2s) → buttons (1.4s)
+    // → socials (1.65s) are ALL fully visible.
+    // Image then drifts in as the final cinematic reveal.
+    setTimeout(function(){
+      var hv = document.querySelector('.hero-visual');
+      if(hv){ hv.classList.add('img-live'); }
+      // Start particle canvas alongside image reveal
+      var pc = document.getElementById('heroParticles');
+      if(pc){
+        pc.classList.add('p-live');
+        initHeroParticles(pc);
       }
-    }
-    return "Great question! For anything specific, the best way to connect with Troy directly is at troyd12@gmail.com or linkedin.com/in/trdixon.";
+    }, 4200);
+    // ──────────────────────────────────────────────────────────────
+
+  }, 8200);
+
+  // Step 4 — remove intro from DOM
+  setTimeout(function(){
+    intro.classList.add('gone');
+  }, 10400);
+  }catch(err){
+    console.warn('TD Movement intro error:',err.message);
+    // Graceful fallback — show hero content immediately
+    var pi=document.getElementById('puzzleIntro');if(pi)pi.style.display='none';
+    var n=document.querySelector('nav');if(n)n.classList.add('entered');
+    var h=document.querySelector('.hero');if(h)h.classList.add('entered');
+    var hv=document.querySelector('.hero-visual');if(hv)hv.classList.add('img-live');
   }
-
-  function sendMessage(text){
-    text = text.trim();
-    if(!text) return;
-
-    // Hide quick replies after first interaction
-    quickReplies.style.display = 'none';
-
-    addMessage(text, 'user');
-    chatInput.value = '';
-
-    // Show typing indicator
-    typingEl.classList.add('show');
-    messagesEl.scrollTop = messagesEl.scrollHeight;
-
-    // Simulate response delay
-    setTimeout(()=>{
-      typingEl.classList.remove('show');
-      addMessage(getBotReply(text), 'bot');
-    }, 900 + Math.random() * 500);
-  }
-
-  // Toggle open/close
-  function openChat(){
-    chatPanel.classList.add('active');
-    chatBtn.classList.add('active');
-    chatBtn.setAttribute('aria-expanded','true');
-    setTimeout(()=>chatInput.focus(), 350);
-  }
-  function closeChat(){
-    chatPanel.classList.remove('active');
-    chatBtn.classList.remove('active');
-    chatBtn.setAttribute('aria-expanded','false');
-  }
-
-  chatBtn.addEventListener('click', ()=>{
-    chatPanel.classList.contains('active') ? closeChat() : openChat();
-  });
-  chatCloseBtn.addEventListener('click', closeChat);
-
-  // Send on button click or Enter
-  chatSendBtn.addEventListener('click', ()=> sendMessage(chatInput.value));
-  chatInput.addEventListener('keydown', e=>{
-    if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); sendMessage(chatInput.value); }
-  });
-
-  // Quick reply buttons
-  quickReplies.querySelectorAll('.quick-reply-btn').forEach(btn=>{
-    btn.addEventListener('click', ()=> sendMessage(btn.dataset.reply));
-  });
-
-  // Close on Escape key
-  document.addEventListener('keydown', e=>{
-    if(e.key === 'Escape' && chatPanel.classList.contains('active')) closeChat();
-  });
 })();
 
-// ── COOKIE CONSENT (GDPR / CCPA) ──
+// ── Mobile safety net — force hero visible if intro stalls ──
 (function(){
-  const banner   = document.getElementById('cookieBanner');
-  const btnAll   = document.getElementById('cookieAccept');
-  const btnDecline = document.getElementById('cookieDecline');
-  const btnManage  = document.getElementById('cookieManage');
-  const catAnalytics  = document.getElementById('catAnalytics');
-  const catFunctional = document.getElementById('catFunctional');
+  if(window.innerWidth<=768){
+    setTimeout(function(){
+      var pi=document.getElementById('puzzleIntro');
+      if(pi && !pi.classList.contains('gone')){
+        pi.style.display='none';
+      }
+      var n=document.querySelector('nav');if(n)n.classList.add('entered');
+      var h=document.querySelector('.hero');if(h)h.classList.add('entered');
+      var hv=document.querySelector('.hero-visual');if(hv)hv.classList.add('img-live');
+    }, 3000);
+  }
+})();
 
-  const STORAGE_KEY = 'td_cookie_consent_v1';
-  const EXPIRY_DAYS = 180;
 
-  function setConsent(prefs){
-    const record = {
-      timestamp: new Date().toISOString(),
-      expires: new Date(Date.now() + EXPIRY_DAYS*86400000).toISOString(),
-      necessary: true,
-      analytics: !!prefs.analytics,
-      functional: !!prefs.functional,
-      version: '1.0'
+
+// ── Hero Particle System — volt green energy sparks around the image ──
+function initHeroParticles(canvas){
+  var ctx = canvas.getContext('2d');
+  var W = 0, H = 0;
+  var NUM = 5;
+  var particles = [];
+  var VOLT = 'rgba(200,249,0,';
+  var frame = 0;
+  var raf = null;
+  var running = false; // FIX: prevents double RAF loops
+
+  function rand(a,b){ return a + Math.random()*(b-a); }
+
+  // FIX: named resize function so it can be removed on cleanup
+  function onResize(){
+    var w = canvas.offsetWidth;
+    var h = canvas.offsetHeight;
+    // FIX: only update if dimensions are real — guard against 0×0 race
+    if(w > 0 && h > 0){
+      W = w; H = h;
+      canvas.width  = W;
+      canvas.height = H;
+      // Respawn particles with correct bounds after resize
+      particles = [];
+      for(var k=0;k<NUM;k++){
+        var p = spawn();
+        p.life = rand(0, p.maxLife);
+        particles.push(p);
+      }
+    }
+  }
+  window.addEventListener('resize', onResize);
+
+  function spawn(){
+    // Guard: if canvas not sized yet, use viewport fallback
+    var fw = W || window.innerWidth * 0.55;
+    var fh = H || window.innerHeight;
+    return {
+      x:  rand(fw*0.15, fw*0.92),
+      y:  rand(fh*0.45, fh*0.98),
+      vy: rand(-0.35, -1.1),
+      vx: rand(-0.18,  0.18),
+      r:  rand(0.7, 2.2),
+      alpha: rand(0.5, 0.95),
+      life:  0,
+      maxLife: rand(120, 260),
+      pulse: rand(0, Math.PI*2)
     };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(record));
-    banner.classList.remove('show');
-    // Update category chip indicators
-    if(record.analytics)  catAnalytics.innerHTML  = '&#10003; Analytics';
-    if(record.functional) catFunctional.innerHTML = '&#10003; Functional';
   }
 
-  function hasValidConsent(){
-    try{
-      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}');
-      if(!stored.expires) return false;
-      return new Date(stored.expires) > new Date();
-    }catch(e){ return false; }
+  function startLoop(){
+    if(running) return; // FIX: hard guard — never start two loops
+    running = true;
+    draw();
   }
 
-  // Show banner if no valid consent stored
-  if(!hasValidConsent()){
-    setTimeout(()=>banner.classList.add('show'), 800);
+  function stopLoop(){
+    running = false;
+    if(raf){ cancelAnimationFrame(raf); raf = null; }
   }
 
-  // Accept all cookies
-  btnAll.addEventListener('click', ()=>{
-    setConsent({analytics:true, functional:true});
-  });
+  function draw(){
+    if(!running) return; // FIX: bail if stopped mid-frame
+    raf = requestAnimationFrame(draw);
+    ctx.clearRect(0,0,W,H);
+    frame++;
 
-  // Necessary only
-  btnDecline.addEventListener('click', ()=>{
-    setConsent({analytics:false, functional:false});
-  });
-
-  // Manage preferences — toggle analytics & functional on/off
-  let managePref = {analytics:false, functional:false};
-  btnManage.addEventListener('click', ()=>{
-    managePref.analytics  = !managePref.analytics;
-    managePref.functional = !managePref.functional;
-    catAnalytics.innerHTML  = managePref.analytics  ? '&#10003; Analytics'  : '&#9675; Analytics';
-    catFunctional.innerHTML = managePref.functional ? '&#10003; Functional' : '&#9675; Functional';
-    catAnalytics.classList.toggle('required',  managePref.analytics);
-    catFunctional.classList.toggle('required', managePref.functional);
-    btnManage.textContent = 'Save Preferences';
-    btnManage.addEventListener('click', function save(){
-      setConsent(managePref);
-      btnManage.removeEventListener('click', save);
-    }, {once:true});
-  });
-})();
-
-// Site entrance animation
-window.addEventListener('load', () => {
-  document.querySelector('nav').classList.add('show');
-  document.querySelector('.hero').classList.add('show');
-});
-
-/* ═══════════════════════════════════════
-   PARTICLE NETWORK — Canvas Hero Engine
-═══════════════════════════════════════ */
-(function(){
-  const canvas = document.getElementById('particle-canvas');
-  if(!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const OC = '255,107,43';
-  let W, H, particles=[], mouse={x:null,y:null};
-  const COUNT = window.innerWidth < 600 ? 40 : 85;
-
-  function resize(){
-    W = canvas.width  = canvas.offsetWidth;
-    H = canvas.height = canvas.offsetHeight;
-  }
-
-  class P {
-    constructor(){this.init()}
-    init(){
-      this.x  = Math.random()*W;
-      this.y  = Math.random()*H;
-      this.vx = (Math.random()-.5)*.45;
-      this.vy = (Math.random()-.5)*.45;
-      this.r  = Math.random()*1.4+.4;
-      this.a  = Math.random()*.35+.1;
-    }
-    update(){
-      if(mouse.x!==null){
-        const dx=mouse.x-this.x, dy=mouse.y-this.y;
-        const d=Math.sqrt(dx*dx+dy*dy);
-        if(d<180){this.vx+=dx/d*.018;this.vy+=dy/d*.018;}
+    for(var i=0;i<particles.length;i++){
+      var p = particles[i];
+      p.life++;
+      if(p.life > p.maxLife){
+        particles[i] = spawn();
+        continue;
       }
-      const spd=Math.sqrt(this.vx*this.vx+this.vy*this.vy);
-      if(spd>1.3){this.vx*=.94;this.vy*=.94;}
-      this.x+=this.vx; this.y+=this.vy;
-      if(this.x<0)this.x=W; if(this.x>W)this.x=0;
-      if(this.y<0)this.y=H; if(this.y>H)this.y=0;
-    }
-    draw(){
+      var t = p.life / p.maxLife;
+      var fade = t < 0.15 ? t/0.15 : t > 0.75 ? (1-t)/0.25 : 1;
+      var twinkle = 0.6 + 0.4*Math.sin(frame*0.06 + p.pulse);
+      var a = p.alpha * fade * twinkle;
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vx += rand(-0.008, 0.008);
+
+      var grad = ctx.createRadialGradient(p.x,p.y,0, p.x,p.y, p.r*4);
+      grad.addColorStop(0,   VOLT + (a*0.9).toFixed(3) + ')');
+      grad.addColorStop(0.4, VOLT + (a*0.35).toFixed(3) + ')');
+      grad.addColorStop(1,   VOLT + '0)');
       ctx.beginPath();
-      ctx.arc(this.x,this.y,this.r,0,Math.PI*2);
-      ctx.fillStyle=`rgba(${OC},${this.a})`;
+      ctx.arc(p.x, p.y, p.r*4, 0, Math.PI*2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+      ctx.fillStyle = VOLT + Math.min(a*1.4,1).toFixed(3) + ')';
       ctx.fill();
     }
   }
 
-  function connect(){
-    for(let i=0;i<particles.length;i++){
-      for(let j=i+1;j<particles.length;j++){
-        const dx=particles[i].x-particles[j].x;
-        const dy=particles[i].y-particles[j].y;
-        const d=Math.sqrt(dx*dx+dy*dy);
-        if(d<125){
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x,particles[i].y);
-          ctx.lineTo(particles[j].x,particles[j].y);
-          ctx.strokeStyle=`rgba(${OC},${(1-d/125)*.13})`;
-          ctx.lineWidth=.5;
-          ctx.stroke();
-        }
+  // FIX: defer first resize + start into RAF so canvas has computed dimensions
+  requestAnimationFrame(function(){
+    onResize(); // get real W/H after browser layout pass
+    startLoop();
+
+    // Pause/resume when hero scrolls out of view — saves CPU
+    var observer = new IntersectionObserver(function(entries){
+      if(!entries[0].isIntersecting){
+        stopLoop();
+      } else {
+        startLoop(); // safe — guarded by running flag
       }
-      if(mouse.x!==null){
-        const dx=particles[i].x-mouse.x;
-        const dy=particles[i].y-mouse.y;
-        const d=Math.sqrt(dx*dx+dy*dy);
-        if(d<160){
-          ctx.beginPath();
-          ctx.moveTo(particles[i].x,particles[i].y);
-          ctx.lineTo(mouse.x,mouse.y);
-          ctx.strokeStyle=`rgba(${OC},${(1-d/160)*.38})`;
-          ctx.lineWidth=.8;
-          ctx.stroke();
+    },{threshold:0.1});
+    observer.observe(canvas);
+  });
+}
+
+// Theme toggle
+document.getElementById('themeToggle').addEventListener('click',()=>{
+  const h=document.documentElement;
+  h.setAttribute('data-theme',h.getAttribute('data-theme')==='dark'?'light':'dark');
+});
+
+// Scroll reveal
+const obs=new IntersectionObserver(e=>{
+  e.forEach((x,i)=>{
+    if(x.isIntersecting){setTimeout(()=>x.target.classList.add('v'),i*60);obs.unobserve(x.target)}
+  });
+},{threshold:.1});
+document.querySelectorAll('.r').forEach(el=>obs.observe(el));
+
+// Project popup modals
+const projCards=document.querySelectorAll('.proj');
+projCards.forEach((card,i)=>{
+  card.style.cursor='pointer';
+  card.addEventListener('click',()=>{
+    document.getElementById('modal'+(i+1)).classList.add('active');
+    document.body.style.overflow='hidden';
+  });
+});
+
+function closeModal(id){
+  var m=document.getElementById(id);if(m)m.classList.remove('active');
+  document.body.style.overflow='';
+}
+
+// Close modal on overlay click
+document.querySelectorAll('.modal-overlay').forEach(overlay=>{
+  overlay.addEventListener('click',(e)=>{
+    if(e.target===overlay){overlay.classList.remove('active');document.body.style.overflow='';}
+  });
+});
+
+// Close modal on Escape key
+document.addEventListener('keydown',(e)=>{
+  if(e.key==='Escape'){
+    document.querySelectorAll('.modal-overlay.active').forEach(m=>{
+      m.classList.remove('active');document.body.style.overflow='';
+    });
+  }
+});
+
+// ═══ LIVE HIRING COUNTER ═══
+(function(){
+  const el=document.getElementById('hireCounter');
+  if(!el) return;
+  let count=0;
+  const base=148200; // starting number — big enough to look legit
+  const startTime=Date.now();
+  function tick(){
+    // Elapsed seconds since page load, accelerated
+    const elapsed=(Date.now()-startTime)/1000;
+    // Fast but slightly irregular counting — ~3-8 per second visually
+    const speed=4.5+Math.sin(elapsed*.7)*2+Math.sin(elapsed*1.3)*1.5;
+    count+=speed/60; // per frame at ~60fps
+    const display=Math.floor(base+count);
+    el.textContent=display.toLocaleString();
+    requestAnimationFrame(tick);
+  }
+  // Kick off once the card scrolls into view
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        observer.unobserve(e.target);
+        tick();
+      }
+    });
+  },{threshold:.3});
+  var scard = el.closest('.scard');
+  if(scard){ observer.observe(scard); }
+})();
+
+// ═══ NEURAL NETWORK CONSTELLATION ═══
+(function(){
+  const canvas=document.getElementById('neuralBg');
+  if(!canvas) return;
+  const ctx=canvas.getContext('2d');
+  let W,H,nodes=[],edges=[],pulses=[];
+  const CONNECT_DIST=180;
+  const NODE_COUNT=90;
+
+  function resize(){
+    W=canvas.width=window.innerWidth*2;
+    H=canvas.height=window.innerHeight*2;
+    canvas.style.width=window.innerWidth+'px';
+    canvas.style.height=window.innerHeight+'px';
+  }
+  window.addEventListener('resize',()=>{resize();initNodes()});
+  resize();
+
+  // Node class
+  class Node{
+    constructor(){
+      this.x=Math.random()*W;
+      this.y=Math.random()*H;
+      this.vx=(Math.random()-.5)*.15;
+      this.vy=(Math.random()-.5)*.15;
+      this.r=Math.random()*3+1.5;
+      this.baseAlpha=Math.random()*.25+.08;
+      this.alpha=this.baseAlpha;
+      // Pulse timing — random fire
+      this.pulsePhase=Math.random()*Math.PI*2;
+      this.pulseSpeed=Math.random()*.008+.003;
+      this.maxAlpha=Math.random()*.7+.3;
+      // Some nodes are "hub" nodes — larger, brighter
+      this.isHub=Math.random()<.12;
+      if(this.isHub){this.r=Math.random()*2+3.5;this.maxAlpha=.9;this.baseAlpha=.15}
+    }
+    update(){
+      this.x+=this.vx;
+      this.y+=this.vy;
+      if(this.x<0||this.x>W)this.vx*=-1;
+      if(this.y<0||this.y>H)this.vy*=-1;
+      // Pulsing glow
+      this.pulsePhase+=this.pulseSpeed;
+      const wave=Math.sin(this.pulsePhase);
+      this.alpha=this.baseAlpha+(wave>0?wave*(this.maxAlpha-this.baseAlpha):0);
+    }
+  }
+
+  // Energy pulse traveling along an edge
+  class Pulse{
+    constructor(a,b){
+      this.ax=a.x;this.ay=a.y;
+      this.bx=b.x;this.by=b.y;
+      this.t=0;
+      this.speed=Math.random()*.012+.006;
+      this.alpha=Math.random()*.6+.4;
+      this.r=Math.random()*2+1.5;
+    }
+    update(){
+      this.t+=this.speed;
+      return this.t<1;
+    }
+    draw(){
+      const x=this.ax+(this.bx-this.ax)*this.t;
+      const y=this.ay+(this.by-this.ay)*this.t;
+      const fade=this.t<.5?this.t*2:(1-this.t)*2;
+      ctx.beginPath();
+      ctx.arc(x,y,this.r,0,Math.PI*2);
+      ctx.fillStyle='rgba(200,249,0,'+(this.alpha*fade).toFixed(3)+')';
+      ctx.fill();
+      // Glow
+      ctx.beginPath();
+      ctx.arc(x,y,this.r*3,0,Math.PI*2);
+      ctx.fillStyle='rgba(200,249,0,'+(this.alpha*fade*.25).toFixed(3)+')';
+      ctx.fill();
+    }
+  }
+
+  function initNodes(){
+    nodes=[];
+    for(let i=0;i<NODE_COUNT;i++) nodes.push(new Node());
+    buildEdges();
+  }
+
+  function buildEdges(){
+    edges=[];
+    for(let i=0;i<nodes.length;i++){
+      for(let j=i+1;j<nodes.length;j++){
+        const dx=nodes[i].x-nodes[j].x;
+        const dy=nodes[i].y-nodes[j].y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<CONNECT_DIST){
+          edges.push([i,j,dist]);
         }
       }
     }
   }
 
-  function loop(){
+  let edgeTimer=0;
+  function animate(){
     ctx.clearRect(0,0,W,H);
-    particles.forEach(p=>{p.update();p.draw();});
-    connect();
-    requestAnimationFrame(loop);
-  }
 
-  function init(){
-    resize();
-    particles=Array.from({length:COUNT},()=>new P());
-    loop();
-  }
+    // Update & draw edges
+    edgeTimer++;
+    if(edgeTimer%30===0) buildEdges(); // rebuild periodically since nodes drift
 
-  window.addEventListener('resize',()=>{resize();particles.forEach(p=>p.init());});
-  const heroEl=document.querySelector('.hero');
-  if(heroEl){
-    heroEl.addEventListener('mousemove',e=>{
-      const r=canvas.getBoundingClientRect();
-      mouse.x=e.clientX-r.left; mouse.y=e.clientY-r.top;
+    for(const [i,j,dist] of edges){
+      const a=nodes[i],b=nodes[j];
+      const fade=1-(dist/CONNECT_DIST);
+      const edgeAlpha=fade*.12*Math.max(a.alpha,b.alpha)*3;
+      ctx.beginPath();
+      ctx.moveTo(a.x,a.y);
+      ctx.lineTo(b.x,b.y);
+      ctx.strokeStyle='rgba(200,249,0,'+Math.min(edgeAlpha,.18).toFixed(3)+')';
+      ctx.lineWidth=.6;
+      ctx.stroke();
+    }
+
+    // Spawn random pulses
+    if(Math.random()<.04&&edges.length>0){
+      const e=edges[Math.floor(Math.random()*edges.length)];
+      const a=nodes[e[0]],b=nodes[e[1]];
+      pulses.push(new Pulse(a,b));
+      // Sometimes chain — fire a second pulse the other way
+      if(Math.random()<.3) pulses.push(new Pulse(b,a));
+    }
+
+    // Update & draw pulses
+    pulses=pulses.filter(p=>{
+      const alive=p.update();
+      if(alive) p.draw();
+      return alive;
     });
-    heroEl.addEventListener('mouseleave',()=>{mouse.x=null;mouse.y=null;});
+
+    // Update & draw nodes
+    for(const n of nodes){
+      n.update();
+      // Outer glow
+      if(n.alpha>.15){
+        ctx.beginPath();
+        ctx.arc(n.x,n.y,n.r*4,0,Math.PI*2);
+        ctx.fillStyle='rgba(200,249,0,'+(n.alpha*.15).toFixed(3)+')';
+        ctx.fill();
+      }
+      // Core dot
+      ctx.beginPath();
+      ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+      ctx.fillStyle='rgba(200,249,0,'+n.alpha.toFixed(3)+')';
+      ctx.fill();
+      // Hub nodes get a ring
+      if(n.isHub&&n.alpha>.2){
+        ctx.beginPath();
+        ctx.arc(n.x,n.y,n.r*2.5,0,Math.PI*2);
+        ctx.strokeStyle='rgba(200,249,0,'+(n.alpha*.3).toFixed(3)+')';
+        ctx.lineWidth=.5;
+        ctx.stroke();
+      }
+    }
+
+    requestAnimationFrame(animate);
   }
-  init();
+
+  initNodes();
+  animate();
+
+  // Adjust opacity for light/dark theme
+  const bg=document.getElementById('neuralBg');
+  const toggler=document.getElementById('themeToggle');
+  if(toggler){toggler.addEventListener('click',()=>{
+    setTimeout(()=>{
+      if(bg) bg.style.opacity=document.documentElement.getAttribute('data-theme')==='light'?'.06':'.12';
+    },50);
+  });}
 })();
 
-/* ═══════════════════════════════════════
-   SCROLL PROGRESS LINE
-═══════════════════════════════════════ */
+// ═══ CUSTOM CURSOR ═══
 (function(){
-  const line=document.getElementById('scroll-line');
-  if(!line) return;
-  window.addEventListener('scroll',()=>{
-    const pct=(window.scrollY/(document.documentElement.scrollHeight-window.innerHeight))*100;
-    line.style.height=Math.min(pct,100)+'%';
-  },{passive:true});
-})();
-
-/* ═══════════════════════════════════════
-   SCROLL REVEAL — Word-by-word
-═══════════════════════════════════════ */
-(function(){
-  document.querySelectorAll('.stitle,.label').forEach(el=>{
-    const words=el.textContent.trim().split(/\s+/);
-    el.innerHTML=words.map((w,i)=>
-      `<span class="reveal-word" style="transition-delay:${i*0.09}s">${w}</span>`
-    ).join(' ');
+  const dot = document.getElementById('cursor-dot');
+  const ring = document.getElementById('cursor-ring');
+  if(!dot||!ring) return;
+  let mx=0,my=0,rx=0,ry=0;
+  document.addEventListener('mousemove',e=>{
+    mx=e.clientX;my=e.clientY;
+    dot.style.left=mx+'px';dot.style.top=my+'px';
   });
+  function lerpCursor(){
+    rx+=(mx-rx)*.12;ry+=(my-ry)*.12;
+    ring.style.left=rx+'px';ring.style.top=ry+'px';
+    requestAnimationFrame(lerpCursor);
+  }
+  lerpCursor();
+  // Hover state
+  const hoverEls='a,button,.btn,.chip,.proj,.pcard,.soc,.cc,.pill,.skill-tab,.clink,.modal-close,.toggle,#back-top';
+  document.querySelectorAll(hoverEls.split(',')).forEach(el=>{
+    el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+    el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+  });
+  document.addEventListener('mousedown',()=>document.body.classList.add('cursor-click'));
+  document.addEventListener('mouseup',()=>document.body.classList.remove('cursor-click'));
+  document.addEventListener('mouseleave',()=>{dot.style.opacity='0';ring.style.opacity='0'});
+  document.addEventListener('mouseenter',()=>{dot.style.opacity='1';ring.style.opacity='1'});
+})();
+
+// ═══ SCROLL PROGRESS ═══
+(function(){
+  const bar=document.getElementById('scroll-progress');
+  const top=document.getElementById('back-top');
+  function update(){
+    const h=document.documentElement;
+    const pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
+    if(bar)bar.style.width=pct+'%';
+    if(top){
+      if(h.scrollTop>500){top.classList.add('visible')}
+      else{top.classList.remove('visible')}
+    }
+  }
+  window.addEventListener('scroll',update,{passive:true});
+  if(top)top.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+})();
+
+// ═══ ACTIVE NAV HIGHLIGHTING ═══
+(function(){
+  const sections=document.querySelectorAll('section[id]');
+  const links=document.querySelectorAll('.nav-links a');
   const obs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{
-      if(e.isIntersecting)
-        e.target.querySelectorAll('.reveal-word').forEach(w=>w.classList.add('vis'));
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        const active=document.querySelector('.nav-links a[href="#'+e.target.id+'"]');
+        if(active)active.classList.add('active');
+      }
     });
-  },{threshold:.25});
-  document.querySelectorAll('.stitle,.label').forEach(el=>obs.observe(el));
+  },{threshold:.35,rootMargin:'-10% 0px -50% 0px'});
+  sections.forEach(s=>obs.observe(s));
 })();
 
-/* ═══════════════════════════════════════
-   3D CARD TILT — Project Cards
-═══════════════════════════════════════ */
+// ═══ SKILLS FILTER TABS ═══
 (function(){
-  document.querySelectorAll('.proj').forEach(card=>{
-    card.addEventListener('mousemove',e=>{
-      const r=card.getBoundingClientRect();
-      const x=((e.clientX-r.left)/r.width-.5)*14;
-      const y=((e.clientY-r.top)/r.height-.5)*-14;
-      card.style.transform=`perspective(900px) rotateX(${y}deg) rotateY(${x}deg) translateY(-6px) scale(1.02)`;
-      card.style.transition='transform .1s ease';
-    });
-    card.addEventListener('mouseleave',()=>{
-      card.style.transform='';
-      card.style.transition='transform .5s ease';
+  const tabs=document.querySelectorAll('.skill-tab');
+  const chips=document.querySelectorAll('.chip[data-cat]');
+  tabs.forEach(tab=>{
+    tab.addEventListener('click',function(){
+      tabs.forEach(t=>t.classList.remove('active'));
+      this.classList.add('active');
+      const filter=this.dataset.filter;
+      chips.forEach(chip=>{
+        if(filter==='all'||chip.dataset.cat===filter){
+          chip.classList.remove('hidden');
+          chip.style.animation='none';
+          chip.offsetHeight;
+          chip.style.animation='';
+        }else{
+          chip.classList.add('hidden');
+        }
+      });
     });
   });
+})();
+
+// ═══ TOAST + COPY ON CONTACT CARDS ═══
+(function(){
+  const toast=document.getElementById('toast');
+  function showToast(msg){
+    if(!toast)return;
+    toast.textContent=msg;
+    toast.classList.add('show');
+    setTimeout(()=>toast.classList.remove('show'),2400);
+  }
+  document.querySelectorAll('.cc[data-copy]').forEach(el=>{
+    el.addEventListener('click',function(e){
+      const val=this.dataset.copy;
+      if(val&&navigator.clipboard){
+        e.preventDefault();
+        navigator.clipboard.writeText(val).then(()=>showToast('Copied: '+val));
+      }
+    });
+  });
+})();
+
+// ═══ ANIMATE ALL STAT COUNTERS ═══
+(function(){
+  const stats=[
+    {sel:'#statOffers',target:92,suffix:'%',dec:0},
+    {sel:'#statProgram',target:1,suffix:'B+',prefix:'$',dec:0},
+    {sel:'#statYears',target:10,suffix:'+',dec:0},
+  ];
+  function animCount(el,target,suffix,prefix,dec){
+    let start=0;
+    const dur=1800;
+    const begin=performance.now();
+    function step(now){
+      const pct=Math.min((now-begin)/dur,1);
+      const ease=1-Math.pow(1-pct,4);
+      const val=(target*ease);
+      el.textContent=(prefix||'')+(dec?val.toFixed(dec):Math.floor(val))+(suffix||'');
+      if(pct<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        stats.forEach(s=>{
+          const el=document.querySelector(s.sel);
+          if(el)animCount(el,s.target,s.suffix,s.prefix,s.dec);
+        });
+        observer.disconnect();
+      }
+    });
+  },{threshold:.3});
+  const aboutSection=document.getElementById('about');
+  if(aboutSection)observer.observe(aboutSection);
 })();
 </script>
 
